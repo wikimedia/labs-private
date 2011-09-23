@@ -1,0 +1,31 @@
+#!/bin/bash
+
+# Basic setup for the puppet git repository
+
+echo "This script assumes you've already run git-setup in one of the public repositories. If not, please exit this script (ctrl-c), and run it there first."
+
+echo "Type your shell username (ie: testuser):"
+read username
+
+# Setup remotes/aliases
+git remote add puppet ssh://$username@gerrit.wikimedia.org:29418/labs/private
+git config alias.push-for-review "push puppet HEAD:refs/for/master"
+
+TOPLEVEL=`git rev-parse --show-toplevel`
+which curl
+if [ "$?" == "0" ]
+then
+	curl "https://gerrit.wikimedia.org/r/tools/hooks/commit-msg" > $TOPLEVEL/.git/hooks/commit-msg && chmod u+x .git/hooks/commit-msg
+else
+	which wget
+	if [ "$?" == "0" ]
+	then
+		wget "https://gerrit.wikimedia.org/r/tools/hooks/commit-msg" -O $TOPLEVEL/.git/hooks/commit-msg && chmod u+x .git/hooks/commit-msg
+	else
+		scp -p 29418 gerrit.wikimedia.org:hooks/commit-msg $TOPLEVEL/.git/hooks/commit-msg
+		if [ "$?" != "0" ]
+		then
+			echo "Please download the commit message hook from https://gerrit.wikimedia.org/r/tools/hooks/commit-msg, place it in .git/hooks/commit-msg, and chmod u+x the file."
+		fi
+	fi
+fi
