@@ -1,0 +1,3 @@
+This private repo is *not* to be shared publically. Many files in this repo are empty. This is simply to satisfy puppet's dependencies. Some of these files should eventually be filled with content. Others, like the SSL keys, should *not*, unless they are made with a labs owned CA.
+
+To be very specific, this repo should not be shared with anyone. If someone needs access, they should submit for test labs access.
