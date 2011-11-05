@@ -112,6 +112,12 @@ class passwords::etherpad {
 
 }
 
+class passwords::etherpad_lite {
+
+	$etherpad_db_pass = ""
+
+}
+
 class passwords::gerrit {
 
 	$gerrit_db_pass = ""
