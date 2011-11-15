@@ -27,29 +27,33 @@ class passwords::certs {
 
 class passwords::openstack::nova {
 
-	$nova_db_pass = ""
-	$nova_ldap_user_pass = ""
-	$nova_ldap_proxyagent_pass = ""
-	$controller_mysql_root_pass = ""
-	$nova_puppet_user_pass = ""
+	# Excluding the proxyagent_pass, which needs to be the same
+	# use the same fake password for everything openstack related.
+	$nova_db_pass = "ueThe7moh7Hah"
+	$nova_ldap_user_pass = "ueThe7moh7Hah"
+	$nova_ldap_proxyagent_pass = "Eche0ieng8UaNoo"
+	$controller_mysql_root_pass = "ueThe7moh7Hah"
+	$nova_puppet_user_pass = "ueThe7moh7Hah"
 
 }
 
 class passwords::openstack::glance {
 
-	$glance_db_pass = ""
+	# Excluding the proxyagent_pass, which needs to be the same
+	# use the same fake password for everything openstack related.
+	$glance_db_pass = "ueThe7moh7Hah"
 
 }
 
 class passwords::ldap::initial_setup {
 
-	$ldap_initial_password = ""
+	$ldap_initial_password = "ueThe7moh7Hah"
 
 }
 
 class passwords::ldap::wmf_cluster {
 
-	$proxypass = ""
+	$proxypass = "Eche0ieng8UaNoo"
 	$ldap_user_pass = ""
 
 }
