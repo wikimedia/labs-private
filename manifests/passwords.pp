@@ -139,3 +139,9 @@ class passwords::network {
 	$router_pass = ""
 
 }
+
+class passwords::puppetmaster::dashboard {
+
+	$db_pass = "Cggn4AU"
+
+}
