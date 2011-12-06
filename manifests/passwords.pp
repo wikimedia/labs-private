@@ -145,3 +145,11 @@ class passwords::puppetmaster::dashboard {
 	$db_pass = "Cggn4AU"
 
 }
+
+class passwords::misc::racktables {
+
+#Randomly generated password for test instance
+
+	$racktables_mysql_pass = "VgsK9PhM9b"
+
+}
