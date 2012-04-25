@@ -25,6 +25,18 @@ class passwords::certs {
 
 }
 
+class passwords::misc::scripts {
+	$cachemgr_pass   = 'IamNotSet'
+	$mysql_root_pass = 'IamNotSet'
+	$nagios_sql_pass = 'IamNotSet'
+	$webshop_pass    = 'IamNotSet'
+	$wikiadmin_pass  = 'IamNotSet'
+	$wikiuser2_pass  = 'IamNotSet'
+	$wikiuser_pass   = 'IamNotSet'
+	$wikiuser_pass_nagios = 'IamNotSet'
+	$wikiuser_pass_real   = 'IamNotSet'
+}
+
 class passwords::openstack::nova {
 
 	# Excluding the proxyagent_pass, which needs to be the same
