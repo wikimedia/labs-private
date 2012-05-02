@@ -51,6 +51,7 @@ class passwords::openstack::keystone {
 	# use the same fake password for everything openstack related.
 	$keystone_db_pass = "ueThe7moh7Hah"
 	$keystone_ldap_user_pass = "ueThe7moh7Hah"
+	$keystone_ldap_proxyagent_pass = "Eche0ieng8UaNoo"
 
 }
 
