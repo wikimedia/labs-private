@@ -9,7 +9,7 @@ class passwords::root {
 		"/etc/ssh/userkeys":
 			group => root,
 			mode => 0700,
-			ensure => directory,
+			ensure => directory;
 		"/etc/ssh/userkeys/root":
 			group => root,
 			mode => 0700,
