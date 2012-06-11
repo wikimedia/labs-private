@@ -6,11 +6,21 @@ class passwords::root {
 	}
 
 	file {
+		"/etc/ssh/userkeys":
+			group => root,
+			mode => 0700,
+			ensure => directory,
+		"/etc/ssh/userkeys/root":
+			group => root,
+			mode => 0700,
+			ensure => directory,
+			require => File["/etc/ssh/userkeys"];
 		"/etc/ssh/userkeys/root/.ssh":
 			group => root,
 			mode => 0700,
-			ensure => directory;
-		"/etc/ssh/userkeys/.ssh/authorized_keys":
+			ensure => directory,
+			require => File["/etc/ssh/userkeys/root"];
+		"/etc/ssh/userkeys/root/.ssh/authorized_keys":
 			group => root,
 			mode => 0600,
 			source => "puppet:///private/ssh/root-authorized-keys",
