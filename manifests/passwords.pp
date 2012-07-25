@@ -74,6 +74,7 @@ class passwords::openstack::keystone {
 	$keystone_db_pass = "ueThe7moh7Hah"
 	$keystone_ldap_user_pass = "ueThe7moh7Hah"
 	$keystone_ldap_proxyagent_pass = "Eche0ieng8UaNoo"
+	$keystone_admin_token = "ADMIN"
 
 }
 
