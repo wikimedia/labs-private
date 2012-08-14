@@ -84,25 +84,30 @@ class passwords::ldap::initial_setup {
 
 }
 
-class passwords::ldap::wmf_cluster {
-
+class passwords::ldap::production {
 	$proxypass = "Eche0ieng8UaNoo"
 	$ldap_user_pass = ""
-
 }
 
-class passwords::ldap::wmf_corp_cluster {
-
+class passwords::ldap::corp {
 	$proxypass = ""
 	$ldap_user_pass = ""
-
 }
 
-class passwords::ldap::wmf_test_cluster {
-
+class passwords::ldap::labs {
 	$proxypass = "Eche0ieng8UaNoo"
 	$ldap_user_pass = ""
+}
 
+# TODO: remove these classes when references are gone
+class passwords::ldap::wmf_cluster {
+	include passwords::ldap::production
+}
+class passwords::ldap::wmf_corp_cluster {
+	include passwords::ldap::corp
+}
+class passwords::ldap::wmf_test_cluster {
+	include passwords::ldap::labs
 }
 
 class passwords::puppet::database {
