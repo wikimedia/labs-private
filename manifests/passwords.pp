@@ -80,6 +80,8 @@ class passwords::openstack::keystone {
 
 class passwords::ldap::initial_setup {
 
+	$initial_password = "ueThe7moh7Hah"
+	#TODO: remove redundant variable when no longer referenced
 	$ldap_initial_password = "ueThe7moh7Hah"
 
 }
