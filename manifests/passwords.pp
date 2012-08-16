@@ -98,7 +98,7 @@ class passwords::ldap::corp {
 
 class passwords::ldap::labs {
 	$proxypass = "Eche0ieng8UaNoo"
-	$ldap_user_pass = ""
+	$script_user_pass = ""
 }
 
 # TODO: remove these classes when references are gone
