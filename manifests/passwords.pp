@@ -166,9 +166,9 @@ class passwords::etherpad_lite {
 }
 
 class passwords::gerrit {
-
-	$gerrit_db_pass = ""
-
+	$gerrit_pass = ""
+	$gerrit_db_pass = "l5uCkoYX+zYtH"
+	$gerrit_email_key = "AsL1PruNcpXuSAIjcCLqT"
 }
 
 class passwords::civi {
