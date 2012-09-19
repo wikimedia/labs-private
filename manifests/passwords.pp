@@ -45,6 +45,8 @@ class passwords::misc::scripts {
 	$wikiuser_pass   = 'IamNotSet'
 	$wikiuser_pass_nagios = 'IamNotSet'
 	$wikiuser_pass_real   = 'IamNotSet'
+        $wikinotifier_user = 'labslogbot'
+        $wikinotifier_pass = 'dumbpassword'
 }
 
 class passwords::openstack::nova {
