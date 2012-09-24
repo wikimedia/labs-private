@@ -198,3 +198,10 @@ class passwords::misc::racktables {
 	$racktables_mysql_pass = "VgsK9PhM9b"
 
 }
+
+class passwords::misc::contint::jenkins {
+
+	# API key for 'zuul' user on http://integration.wmflabs.org/ci/
+	$zuul_user_apikey = "de6e9ebda3b300a8cd2d022cc08c59c0"
+
+}
