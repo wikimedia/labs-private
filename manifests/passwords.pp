@@ -204,5 +204,6 @@ class passwords::misc::contint::jenkins {
 
 	# API key for 'zuul' user on http://integration.wmflabs.org/ci/
 	$zuul_user_apikey = "de6e9ebda3b300a8cd2d022cc08c59c0"
+	$jobbuilder_user_apikey = "51c28bce0f027887a61a6d7693010a2b"
 
 }
