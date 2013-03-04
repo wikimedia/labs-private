@@ -40,7 +40,7 @@ class passwords::misc::scripts {
 	$mysql_root_pass = 'IamNotSet'
 	$nagios_sql_pass = 'IamNotSet'
 	$webshop_pass    = 'IamNotSet'
-	$wikiadmin_pass  = 'IamNotSet'
+	$wikiadmin_pass  = 'fdgaggrehresjarejas'
 	$wikiuser2_pass  = 'IamNotSet'
 	$wikiuser_pass   = 'IamNotSet'
 	$wikiuser_pass_nagios = 'IamNotSet'
