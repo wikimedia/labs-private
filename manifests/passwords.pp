@@ -144,7 +144,7 @@ class passwords::nagios::snmp {
 
 class passwords::lucene {
 
-	$oai_pass = ""
+	$oai_pass = "hyaREgJ3zNpLAFkH"
 
 }
 
