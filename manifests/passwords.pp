@@ -208,3 +208,8 @@ class passwords::misc::contint::jenkins {
 	$jobbuilder_user_apikey = "d1ae36235638ce19b2aef73a8cb510a7"
 
 }
+
+class passwords::mysql::eventlogging {
+	$user = "evenlogging"
+	$password = "68QrOq220717816UycU1"
+}
