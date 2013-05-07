@@ -206,7 +206,11 @@ class passwords::misc::contint::jenkins {
 	# API key for 'zuul' user on http://integration.wmflabs.org/ci/
 	$zuul_user_apikey = "2a898e64b7c1b5399aaa7abb5a6b350e"
 	$jobbuilder_user_apikey = "d1ae36235638ce19b2aef73a8cb510a7"
+}
 
+class passwords::mongodb::eventlogging {
+	$user = "eventloggingusername"
+	$password = "fakepassword"
 }
 
 class passwords::mysql::eventlogging {
