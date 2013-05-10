@@ -200,6 +200,11 @@ class passwords::misc::racktables {
 
 }
 
+class passwords::misc::rt {
+	$rt_mysql_user = "rtuser"
+	$rt_mysql_pass = "fakertpassword"
+}
+
 class passwords::misc::contint::jenkins {
 
 	# API key for 'zuul' user on http://integration.wmflabs.org/ci/
