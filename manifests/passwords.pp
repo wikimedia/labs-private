@@ -193,12 +193,9 @@ class passwords::puppetmaster::dashboard {
 
 }
 
-class passwords::misc::racktables {
-
-#Randomly generated password for test instance
-
-	$racktables_mysql_pass = "VgsK9PhM9b"
-
+class passwords::racktables {
+    $racktables_db_user = 'racktables'
+    $racktables_db_pass = 'fakebrokenpassword'
 }
 
 class passwords::misc::rt {
