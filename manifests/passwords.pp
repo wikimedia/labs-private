@@ -219,3 +219,7 @@ class passwords::mysql::eventlogging {
 	$user = "evenlogging"
 	$password = "68QrOq220717816UycU1"
 }
+
+class passwords::redis {
+        $main_password = "Q6dzak4k9vjYjh341fHS"
+}
