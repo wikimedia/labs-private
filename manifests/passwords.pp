@@ -1,5 +1,11 @@
 class passwords::root {
 
+	if ! defined (Package['sudo-ldap']) {
+		package { 'sudo-ldap':
+			ensure => latest;
+		}
+	}
+
 	user { root:
 		password => '$1$OjS2vIPp$aM7g85IK163Npwx/9M7nF.',
 		before => Package['sudo-ldap'];
