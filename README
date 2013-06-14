@@ -1,3 +1,11 @@
-This private repo is *not* to be shared publically. Many files in this repo are empty. This is simply to satisfy puppet's dependencies. Some of these files should eventually be filled with content. Others, like the SSL keys, should *not*, unless they are made with a labs owned CA.
+Despite the name, the contents of this repo is visible to all Labs account holders.
 
-To be very specific, this repo should not be shared with anyone. If someone needs access, they should submit for test labs access.
+It consists of:
+
+- Stub files and classes needed to satisfy puppet dependencies
+- Dummy passwords for same
+- Certs that are self-signed and therefore certify nothing
+- A few keys and passwords that are 'real' in the sense that labs instances
+  need them to communicate with upstream services.
+
+The live keys and passwords are not secure, but they are moderately obscure.  For that reason, please do not share the contents of this repo outside of Labs.
