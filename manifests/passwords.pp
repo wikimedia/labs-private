@@ -197,3 +197,9 @@ class passwords::mysql::eventlogging {
 class passwords::redis {
     $main_password = 'Q6dzak4k9vjYjh341fHS'
 }
+
+class passwords::geoip {
+	$license_key = 'fakelicensekey'
+	$user_id = '12345'
+}
+
