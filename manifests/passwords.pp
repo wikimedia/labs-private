@@ -6,7 +6,7 @@ class passwords::root {
     }
 
     user { root:
-        password => '$1$OjS2vIPp$aM7g85IK163Npwx/9M7nF.',
+        password => '!',
         before => Package['sudo-ldap'];
     }
 
