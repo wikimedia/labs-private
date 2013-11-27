@@ -5,34 +5,34 @@ class passwords::root {
         }
     }
 
-    user { root:
+    user { 'root':
         password => '!',
-        before => Package['sudo-ldap'];
+        before   => Package['sudo-ldap'];
     }
 
     file {
         '/etc/ssh/userkeys':
-            owner => root,
-            group => root,
-            mode => 0700,
-            ensure => directory;
-        '/etc/ssh/userkeys/root':
-            owner => root,
-            group => root,
-            mode => 0700,
             ensure => directory,
+            owner  => root,
+            group  => root,
+            mode   => '0700';
+        '/etc/ssh/userkeys/root':
+            ensure  => directory,
+            owner   => root,
+            group   => root,
+            mode    => '0700',
             require => File['/etc/ssh/userkeys'];
         '/etc/ssh/userkeys/root/.ssh':
-            owner => root,
-            group => root,
-            mode => 0700,
-            ensure => directory,
+            ensure  => directory,
+            owner   => root,
+            group   => root,
+            mode    => '0700',
             require => File['/etc/ssh/userkeys/root'];
         '/etc/ssh/userkeys/root/.ssh/authorized_keys':
-            owner => root,
-            group => root,
-            mode => 0600,
-            source => 'puppet:///private/ssh/root-authorized-keys',
+            owner   => root,
+            group   => root,
+            mode    => '0600',
+            source  => 'puppet:///private/ssh/root-authorized-keys',
             require => File['/etc/ssh/userkeys/root/.ssh'];
     }
 }
