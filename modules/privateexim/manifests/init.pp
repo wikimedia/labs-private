@@ -1,3 +1,3 @@
 class privateexim::listserve {
-	$mailing_lists = []
+    $mailing_lists = []
 }

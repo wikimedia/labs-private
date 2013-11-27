@@ -203,7 +203,7 @@ class passwords::redis {
 }
 
 class passwords::geoip {
-	$license_key = 'fakelicensekey'
-	$user_id = '12345'
+    $license_key = 'fakelicensekey'
+    $user_id = '12345'
 }
 
