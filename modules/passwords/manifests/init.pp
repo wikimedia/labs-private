@@ -198,6 +198,11 @@ class passwords::mysql::eventlogging {
     $password = '68QrOq220717816UycU1'
 }
 
+class passwords::mysql::wikimania_scholarships {
+    $user = 'scholarships'
+    $password = '4i0Xd5mFBf3GshAVPy9RBwdG'
+}
+
 class passwords::redis {
     $main_password = 'Q6dzak4k9vjYjh341fHS'
 }
