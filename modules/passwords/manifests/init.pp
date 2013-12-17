@@ -201,6 +201,8 @@ class passwords::mysql::eventlogging {
 class passwords::mysql::wikimania_scholarships {
     $user = 'scholarships'
     $password = '4i0Xd5mFBf3GshAVPy9RBwdG'
+    $app_user = 'scholarships_app'
+    $app_password = 'rudOmOtJeytErIdmyivvajDu'
 }
 
 class passwords::redis {
