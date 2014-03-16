@@ -65,6 +65,10 @@ class passwords::openstack::nova {
     $nova_puppet_user_pass = 'ueThe7moh7Hah'
 }
 
+class passwords::openstack::neutron {
+    $neutron_ldap_user_pass = 'bogus'
+}
+
 class passwords::openstack::glance {
     # Excluding the proxyagent_pass, which needs to be the same
     # use the same fake password for everything openstack related.
