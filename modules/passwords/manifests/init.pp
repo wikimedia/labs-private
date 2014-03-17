@@ -218,3 +218,6 @@ class passwords::geoip {
     $user_id = '12345'
 }
 
+class passwords::logstash {
+    $redis = '73HaA7xh2ZEq'
+}
