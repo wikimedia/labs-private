@@ -221,3 +221,8 @@ class passwords::geoip {
 class passwords::logstash {
     $redis = '73HaA7xh2ZEq'
 }
+
+class passwords::bugzilla {
+    $bugzilla_db_pass = 'snakeoil'
+    $bugzilla_site_secret = 'fnord1234567890'
+}
