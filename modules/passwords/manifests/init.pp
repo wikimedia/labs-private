@@ -232,3 +232,9 @@ class passwords::bugzilla {
     $bugzilla_db_pass = 'snakeoil'
     $bugzilla_site_secret = 'fnord1234567890'
 }
+
+class passwords::graphite {
+    $user = 'admin'
+    $pass = 'this_isnt_a_real_password'
+    $secret_key = 'q(i4#l43x&5+o_ckyz#+#v_k934@cj0xi3qi80#)72imf#_jf^'
+}
