@@ -238,3 +238,69 @@ class passwords::graphite {
     $pass = 'this_isnt_a_real_password'
     $secret_key = 'q(i4#l43x&5+o_ckyz#+#v_k934@cj0xi3qi80#)72imf#_jf^'
 }
+
+class passwords::mysql::querydigest {
+	$mysql_ops_db = 'bogus'
+}
+
+class passwords::swift::eqiad-prod {
+    $super_admin_key = 'rollingstones'
+    $rewrite_password = 'thebeatles'
+}
+
+class passwords::swift::esams-prod {
+    $super_admin_key = 'blur'
+    $rewrite_password = 'oasis'
+}
+
+class passwords::exim {
+    $smtp_ldap_password = 'smtp'
+    $otrs_mysql_password = 'otrs'
+}
+
+class passwords::analytics {
+    $http_proxy_auth = {
+        'wmf-analytics' => 'r'
+    }
+    $sqoop_mysql_user = 'e'
+    $sqoop_mysql_pass = 'a'
+    $libanon_salt = 'l'
+
+    $hive_jdbc_password   = 'l'
+    $oozie_jdbc_password  = 'y'
+
+    $hue_secret_key       = '!'
+}
+
+class passwords::bacula {
+    $database = 'meh'
+}
+
+class passwords::mobile::vumi {
+    $wikipedia_xmpp_sms_out = 'xmpp'
+    $wikipedia_xmpp = 'again'
+    $tata_sms_incoming_pw = 'foo'
+    $tata_sms_outgoing_pw = 'bar'
+    $tata_ussd_pw = 'baz'
+    $tata_hyd_ussd_pw = 'FuzzBuz'
+}
+
+class passwords::mysql::research {
+    $user = 'getup'
+    $pass = 'standup'
+}
+
+class passwords::osm {
+    $replication_pass = 'hi'
+    $osm_password = 'ciao'
+    $kolossos_password = 'salut'
+    $aude_password = 'hallo'
+}
+
+class passwords::rancid {
+    $rancidpass = 'theclash'
+}
+
+class passwords::udpmxircecho {
+    $udpmxircecho_pass = "surfin'bird"
+}
