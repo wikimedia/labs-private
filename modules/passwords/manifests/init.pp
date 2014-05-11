@@ -178,10 +178,6 @@ class passwords::network {
     $router_pass = ''
 }
 
-class passwords::puppetmaster::dashboard {
-    $db_pass = 'Cggn4AU'
-}
-
 class passwords::racktables {
     $racktables_db_user = 'racktables'
     $racktables_db_pass = 'fakebrokenpassword'
@@ -227,6 +223,8 @@ class passwords::geoip {
 class passwords::logstash {
     $redis = '73HaA7xh2ZEq'
 }
+
+class passwords::librenms { }
 
 class passwords::bugzilla {
     $bugzilla_db_pass = 'snakeoil'
@@ -285,6 +283,7 @@ class passwords::mobile::vumi {
     $tata_hyd_ussd_pw = 'FuzzBuz'
 }
 
+class passwords::mysql::globaldev { }
 class passwords::mysql::research {
     $user = 'getup'
     $pass = 'standup'
@@ -304,3 +303,6 @@ class passwords::rancid {
 class passwords::udpmxircecho {
     $udpmxircecho_pass = "surfin'bird"
 }
+
+class passwords::geowiki { }
+
