@@ -241,12 +241,12 @@ class passwords::mysql::querydigest {
 	$mysql_ops_db = 'bogus'
 }
 
-class passwords::swift::eqiad-prod {
+class passwords::swift::eqiad_prod {
     $super_admin_key = 'rollingstones'
     $rewrite_password = 'thebeatles'
 }
 
-class passwords::swift::esams-prod {
+class passwords::swift::esams_prod {
     $super_admin_key = 'blur'
     $rewrite_password = 'oasis'
 }
