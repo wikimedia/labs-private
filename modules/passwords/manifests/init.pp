@@ -294,6 +294,7 @@ class passwords::osm {
     $osm_password = 'ciao'
     $kolossos_password = 'salut'
     $aude_password = 'hallo'
+    $planemad_password = 'ola'
 }
 
 class passwords::rancid {
