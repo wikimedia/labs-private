@@ -199,6 +199,11 @@ class passwords::mongodb::eventlogging {
     $password = 'fakepassword'
 }
 
+class passwords::mysql::dump {
+    $user = 'meh'
+    $password = 'mah'
+}
+
 class passwords::mysql::eventlogging {
     $user = 'eventlogging'
     $password = '68QrOq220717816UycU1'
