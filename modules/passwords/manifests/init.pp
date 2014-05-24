@@ -84,6 +84,11 @@ class passwords::openstack::keystone {
     $keystone_admin_token = 'ADMIN'
 }
 
+class passwords::swift::eqiad_prod {
+    $super_admin_key = "9g9x6rtkjj"
+    $rewrite_password = "lh6t1fjsdp"
+}
+
 class passwords::ldap::initial_setup {
     $initial_password = 'ueThe7moh7Hah'
     #TODO: remove redundant variable when no longer referenced
