@@ -1,6 +1,6 @@
-Despite the name, the contents of this repo is visible to all Labs account holders.
-Also this repo is or at least was at one point publicly accessible without any
-authentication.
+Despite the name, the contents of this repo is publicly visible.
+It mirrors the production 'private' repo (which really is private) and
+provides dummy passwords for puppet compatibility.
 
 It consists of:
 
@@ -9,5 +9,3 @@ It consists of:
 - Certs that are self-signed and therefore certify nothing
 - A few keys and passwords that are 'real' in the sense that labs instances
   need them to communicate with upstream services.
-
-The live keys and passwords are not secure, but they are moderately obscure.  For that reason, please do not share the contents of this repo outside of Labs.
