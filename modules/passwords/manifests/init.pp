@@ -38,7 +38,7 @@ class passwords::root {
             owner   => root,
             group   => root,
             mode    => '0600',
-            source  => 'puppet:///private/modules/ssh/root-authorized-keys',
+            source  => 'puppet:///private/ssh/root-authorized-keys',
             require => File['/etc/ssh/userkeys/root/.ssh'];
     }
 }
