@@ -306,3 +306,6 @@ class passwords::udpmxircecho {
 
 class passwords::geowiki { }
 
+class passwords::logmsgbot {
+    $logmsgbot_password = 'thew'
+}
