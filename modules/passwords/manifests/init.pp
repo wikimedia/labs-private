@@ -300,6 +300,8 @@ class passwords::osm {
     $kolossos_password = 'salut'
     $aude_password = 'hallo'
     $planemad_password = 'ola'
+    $ganglia_user = 'yougotafight'
+    $ganglia_pass = 'foryourright'
 }
 
 class passwords::rancid {
