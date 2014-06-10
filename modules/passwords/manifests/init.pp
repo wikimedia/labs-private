@@ -194,6 +194,11 @@ class passwords::misc::contint::jenkins {
     $jobbuilder_user_apikey = 'd1ae36235638ce19b2aef73a8cb510a7'
 }
 
+class passwords::mysql::otrs {
+    $user = 'user'
+    $pass = 'pass'
+}
+
 class passwords::mongodb::eventlogging {
     $user = 'eventloggingusername'
     $password = 'fakepassword'
