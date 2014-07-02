@@ -194,11 +194,6 @@ class passwords::misc::contint::jenkins {
     $jobbuilder_user_apikey = 'd1ae36235638ce19b2aef73a8cb510a7'
 }
 
-class passwords::mysql::otrs {
-    $user = 'user'
-    $pass = 'pass'
-}
-
 class passwords::mongodb::eventlogging {
     $user = 'eventloggingusername'
     $password = 'fakepassword'
@@ -212,6 +207,42 @@ class passwords::mysql::dump {
 class passwords::mysql::eventlogging {
     $user = 'eventlogging'
     $password = '68QrOq220717816UycU1'
+}
+
+class passwords::mysql::frack {
+    $user = 'user'
+    $pass = 'pass'
+}
+
+class passwords::mysql::globaldev { }
+
+class passwords::mysql::research {
+    $user = 'getup'
+    $pass = 'standup'
+}
+
+class passwords::mysql::otrs {
+    $user = 'user'
+    $pass = 'pass'
+}
+
+class passwords::mysql::phabricator {
+    $admin_user = 'admin_user'
+    $admin_pass = 'admin_pass'
+    $app_user = 'app_user'
+    $app_pass = 'app_pass'
+    #temp accounting instance for legalpad
+    $radon_admin_pass = 'radon_admin_pass'
+    $radon_app_pass = 'radon_app_pass'
+}
+
+class passwords::mysql::querydigest {
+	$mysql_ops_db = 'bogus'
+}
+
+class passwords::mysql::sul {
+    $user = 'user'
+    $pass = 'pass'
 }
 
 class passwords::mysql::wikimania_scholarships {
@@ -245,10 +276,6 @@ class passwords::graphite {
     $user = 'admin'
     $pass = 'this_isnt_a_real_password'
     $secret_key = 'q(i4#l43x&5+o_ckyz#+#v_k934@cj0xi3qi80#)72imf#_jf^'
-}
-
-class passwords::mysql::querydigest {
-	$mysql_ops_db = 'bogus'
 }
 
 class passwords::swift::eqiad_prod {
@@ -291,12 +318,6 @@ class passwords::mobile::vumi {
     $tata_sms_outgoing_pw = 'bar'
     $tata_ussd_pw = 'baz'
     $tata_hyd_ussd_pw = 'FuzzBuz'
-}
-
-class passwords::mysql::globaldev { }
-class passwords::mysql::research {
-    $user = 'getup'
-    $pass = 'standup'
 }
 
 class passwords::osm {
