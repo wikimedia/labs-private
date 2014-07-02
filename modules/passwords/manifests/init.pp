@@ -343,3 +343,13 @@ class passwords::geowiki { }
 class passwords::logmsgbot {
     $logmsgbot_password = 'thew'
 }
+
+class passwords::mysql::phabricator {
+    $admin_user = 'xx'
+    $app_user = ''
+    $radon_admin_pass = ''
+    $radon_app_pass = ''
+    $admin_pass = ''
+    $app_pass = ''
+
+}
