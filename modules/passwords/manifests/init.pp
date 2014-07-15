@@ -159,6 +159,9 @@ class passwords::etherpad {
 }
 
 class passwords::etherpad_lite {
+    $etherpad_db_user = 'etherpad'
+    $etherpad_db_host = 'localhost'
+    $etherpad_db_name = 'etherpad'
     $etherpad_db_pass = ''
 }
 
