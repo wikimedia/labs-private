@@ -284,11 +284,15 @@ class passwords::graphite {
 class passwords::swift::eqiad_prod {
     $super_admin_key = 'rollingstones'
     $rewrite_password = 'thebeatles'
+    $dispersion_password = 'ledzeppelin'
+    $search_password = 'queen'
 }
 
 class passwords::swift::esams_prod {
     $super_admin_key = 'blur'
     $rewrite_password = 'oasis'
+    $dispersion_password = 'theverve'
+    $search_password = 'thekinks'
 }
 
 class passwords::exim {
