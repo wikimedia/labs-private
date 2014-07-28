@@ -240,7 +240,7 @@ class passwords::mysql::phabricator {
 }
 
 class passwords::mysql::querydigest {
-	$mysql_ops_db = 'bogus'
+    $mysql_ops_db = 'bogus'
 }
 
 class passwords::mysql::sul {
