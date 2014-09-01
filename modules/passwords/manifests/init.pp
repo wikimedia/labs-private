@@ -350,3 +350,10 @@ class passwords::geowiki { }
 class passwords::logmsgbot {
     $logmsgbot_password = 'thew'
 }
+
+class passwords::wikitech {
+       $wikitech_db_password = 'password'
+       $wikitech_secret_key = 'secretkey'
+       $wikitech_upgrade_key = 'upgradekey'
+       $wikitech_captcha_secret = 'captcha_secret'
+}
