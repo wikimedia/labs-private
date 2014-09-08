@@ -357,3 +357,9 @@ class passwords::wikitech {
        $wikitech_upgrade_key = 'upgradekey'
        $wikitech_captcha_secret = 'captcha_secret'
 }
+
+class passwords::servermon {
+       $db_user = 'user'
+       $db_password = 'password'
+}
+
