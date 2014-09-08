@@ -361,5 +361,6 @@ class passwords::wikitech {
 class passwords::servermon {
        $db_user = 'user'
        $db_password = 'password'
+       $secret_key = 'secret_key'
 }
 
