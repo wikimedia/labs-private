@@ -364,3 +364,22 @@ class passwords::servermon {
        $secret_key = 'secret_key'
 }
 
+class passwords::mysql::phabricator {
+    $admin_user = 'dummy'
+    $app_user = 'dummy'
+    $manifest_user = 'dummy'
+    $bz_user = 'dummy'
+    $rt_user = 'dummy'
+    $fab_user = 'dummy'
+    #temp accounting instance for legalpad
+    $radon_admin_pass = 'dummy'
+    $radon_app_pass = 'dummy'
+    #primary production instance
+    $admin_pass = 'dummy'
+    $app_pass = 'dummy'
+    $manifest_pass = 'dummy'
+    $bz_pass = 'dummy'
+    $rt_pass = 'dummy'
+    $fab_pass = 'dummy'
+}
+
