@@ -352,15 +352,18 @@ class passwords::logmsgbot {
 }
 
 class passwords::wikitech {
-       $wikitech_db_password = 'password'
-       $wikitech_secret_key = 'secretkey'
-       $wikitech_upgrade_key = 'upgradekey'
-       $wikitech_captcha_secret = 'captcha_secret'
+    $wikitech_db_password = 'password'
+    $wikitech_secret_key = 'secretkey'
+    $wikitech_upgrade_key = 'upgradekey'
+    $wikitech_captcha_secret = 'captcha_secret'
 }
 
 class passwords::servermon {
-       $db_user = 'user'
-       $db_password = 'password'
-       $secret_key = 'secret_key'
+    $db_user = 'user'
+    $db_password = 'password'
+    $secret_key = 'secret_key'
 }
 
+class passwords::phabricator {
+    $emailbot_cert = 'supersecret'
+}
