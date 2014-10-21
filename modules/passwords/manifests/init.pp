@@ -364,6 +364,10 @@ class passwords::servermon {
     $secret_key = 'secret_key'
 }
 
+class passwords::tor {
+    $hashed_control_password = '16:DEB7ED95B2FFA54360D49BCB2AC9AD4AE49F00E541CEB490854F74128A'
+}
+
 class passwords::phabricator {
     $emailbot_cert = 'supersecret'
 }
