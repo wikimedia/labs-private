@@ -248,6 +248,14 @@ class passwords::mysql::sul {
     $pass = 'pass'
 }
 
+class passwords::mysql::iegreview {
+    $admin_user = 'longcat'
+    $app_user = 'maru'
+    $admin_password = 'hunter2'
+    $app_password = 'swordfish'
+}
+
+
 class passwords::mysql::wikimania_scholarships {
     $user = 'scholarships'
     $password = '4i0Xd5mFBf3GshAVPy9RBwdG'
