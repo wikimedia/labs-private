@@ -345,6 +345,11 @@ class passwords::osm {
     $ganglia_pass = 'foryourright'
 }
 
+class passwords::postgres {
+    $replication_pass = 'hi'
+    $ganglia_user = 'yougotafight'
+    $ganglia_pass = 'foryourright'
+}
 class passwords::rancid {
     $rancidpass = 'theclash'
 }
