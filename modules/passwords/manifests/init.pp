@@ -349,6 +349,7 @@ class passwords::postgres {
     $replication_pass = 'hi'
     $ganglia_user = 'yougotafight'
     $ganglia_pass = 'foryourright'
+    $labsadmin_password = 'toparty'
 }
 class passwords::rancid {
     $rancidpass = 'theclash'
