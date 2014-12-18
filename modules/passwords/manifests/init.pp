@@ -5,15 +5,9 @@
 ##################################################
 
 class passwords::root {
-    if ! defined (Package['sudo-ldap']) {
-        package { 'sudo-ldap':
-            ensure => latest;
-        }
-    }
-
     user { 'root':
         password => '!',
-        before   => Package['sudo-ldap'];
+        before   => Class['sudo'],
     }
 
     file {
