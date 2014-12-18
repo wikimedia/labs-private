@@ -7,7 +7,6 @@
 class passwords::root {
     user { 'root':
         password => '!',
-        before   => Class['sudo'],
     }
 
     file {
