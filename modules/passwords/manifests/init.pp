@@ -99,6 +99,9 @@ class passwords::ldap::corp {
     $ldap_user_pass = ''
 }
 
+class passwords::openldap::corp {
+    $sync_pass = 'syncsyncsync'
+}
 class passwords::ldap::labs {
     $proxypass = 'Eche0ieng8UaNoo'
     $script_user_pass = ''
