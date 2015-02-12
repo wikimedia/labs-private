@@ -187,6 +187,11 @@ class passwords::misc::rt {
     $rt_mysql_pass = 'fakertpassword'
 }
 
+class passwords::tendril {
+        $db_user = "fakeuser"
+        $db_pass = "fakepass"
+}
+
 class passwords::misc::contint::jenkins {
     # API key for 'zuul' user on http://integration.wmflabs.org/ci/
     $zuul_user_apikey = '2a898e64b7c1b5399aaa7abb5a6b350e'
