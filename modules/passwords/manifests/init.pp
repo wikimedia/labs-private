@@ -9,30 +9,9 @@ class passwords::root {
         password => '!',
     }
 
-    file {
-        '/etc/ssh/userkeys':
-            ensure => directory,
-            owner  => root,
-            group  => root,
-            mode   => '0700';
-        '/etc/ssh/userkeys/root':
-            ensure  => directory,
-            owner   => root,
-            group   => root,
-            mode    => '0700',
-            require => File['/etc/ssh/userkeys'];
-        '/etc/ssh/userkeys/root/.ssh':
-            ensure  => directory,
-            owner   => root,
-            group   => root,
-            mode    => '0700',
-            require => File['/etc/ssh/userkeys/root'];
-        '/etc/ssh/userkeys/root/.ssh/authorized_keys':
-            owner   => root,
-            group   => root,
-            mode    => '0600',
-            source  => 'puppet:///private/ssh/root-authorized-keys',
-            require => File['/etc/ssh/userkeys/root/.ssh'];
+    ssh::userkey { 'root':
+        ensure => present,
+        source => 'puppet:///private/ssh/root-authorized-keys',
     }
 }
 
