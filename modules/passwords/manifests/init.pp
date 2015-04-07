@@ -81,6 +81,12 @@ class passwords::ldap::corp {
 class passwords::openldap::corp {
     $sync_pass = 'syncsyncsync'
 }
+
+class passwords::labs::rabbitmq {
+    $rabbit_userid = 'auser'
+    $rabbit_password  = 'apassword'
+}
+
 class passwords::ldap::labs {
     $proxypass = 'Eche0ieng8UaNoo'
     $script_user_pass = ''
