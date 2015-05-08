@@ -393,3 +393,9 @@ class passwords::pdns {
 class passwords::designate {
     $db_pass = 'dummy'
 }
+
+class passwords::ceilometer {
+    $db_user = 'ceilometer_user'
+    $db_pass = 'dummy'
+    $secret_key = 'aaaaaaaaaaaaaaaa'
+}
