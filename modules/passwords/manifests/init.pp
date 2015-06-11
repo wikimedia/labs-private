@@ -399,3 +399,8 @@ class passwords::openstack::ceilometer {
     $db_pass = 'dummy'
     $secret_key = 'aaaaaaaaaaaaaaaa'
 }
+
+class passwords::labs::toollabs {
+    $nova_user = 'nobody'
+    $nova_password = 'nobody'
+}
