@@ -404,3 +404,7 @@ class passwords::labs::toollabs {
     $nova_user = 'nobody'
     $nova_password = 'nobody'
 }
+
+class passwords::tessera {
+    $secret_key = 'notsecret'
+}
