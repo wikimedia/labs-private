@@ -1,0 +1,4 @@
+sentry::db_pass: 'sentry'
+sentry::secret_key: 'cad0c58f5489a1efbc2fadc2b81d5c95dc3f3103'
+sentry::admin_pass: '123'
+
