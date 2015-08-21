@@ -283,6 +283,20 @@ class passwords::graphite {
     $secret_key = 'q(i4#l43x&5+o_ckyz#+#v_k934@cj0xi3qi80#)72imf#_jf^'
 }
 
+class passwords::swift::eqiad_prod {
+    $super_admin_key = 'rollingstones'
+    $rewrite_password = 'thebeatles'
+    $dispersion_password = 'ledzeppelin'
+    $search_password = 'queen'
+}
+
+class passwords::swift::esams_prod {
+    $super_admin_key = 'blur'
+    $rewrite_password = 'oasis'
+    $dispersion_password = 'theverve'
+    $search_password = 'thekinks'
+}
+
 class passwords::exim {
     $smtp_ldap_password = 'smtp'
     $otrs_mysql_password = 'otrs'
