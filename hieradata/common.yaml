@@ -1,6 +1,0 @@
-# BUG! this should be allowed to be fully specified
-#swift_new::params::replication_keys:
-replication_keys:
-    mw_media:
-        key:  'key1'
-        key2: 'key2'

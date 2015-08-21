@@ -1,1 +1,6 @@
 ocg::redis_password: 'emptypass'
+swift::params::account_keys:
+    super_admin: nosuchpass1
+    mw_media: nosuchpass2
+    dispersion: nosuchpass3
+    search_backup: nosuchpass4
