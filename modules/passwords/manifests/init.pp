@@ -189,6 +189,8 @@ class passwords::nodepool {
 
     # Password of the user that has access to the OpenStack API
     $manager_pass = 'fakepass'
+
+    $nodepooldb_pass = ""
 }
 
 class passwords::mongodb::eventlogging {
