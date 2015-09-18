@@ -418,3 +418,7 @@ class passwords::labs::toollabs {
 class passwords::tessera {
     $secret_key = 'notsecret'
 }
+
+class passwords::cassandra {
+    $restbase = 'notsecret'
+}
