@@ -401,6 +401,7 @@ class passwords::pdns {
 }
 
 class passwords::designate {
+    $db_user = 'dummyuser'
     $db_pass = 'dummy'
 }
 
