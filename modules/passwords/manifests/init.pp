@@ -244,6 +244,11 @@ class passwords::mysql::sul {
     $pass = 'pass'
 }
 
+class passwords::mysql::labsdb {
+    $user = 'user'
+    $password = 'pass'
+}
+
 class passwords::mysql::iegreview {
     $admin_user = 'longcat'
     $app_user = 'maru'
