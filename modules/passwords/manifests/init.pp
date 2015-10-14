@@ -410,7 +410,7 @@ class passwords::designate {
     $db_pass = 'dummy'
 }
 
-class passwords::designate {
+class passwords::grafana {
     $secret_key     = 'aaaaa'
     $admin_password = 'aaaa'
 }
