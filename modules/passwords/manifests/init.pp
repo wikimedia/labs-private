@@ -410,6 +410,11 @@ class passwords::designate {
     $db_pass = 'dummy'
 }
 
+class passwords::designate {
+    $secret_key     = 'aaaaa'
+    $admin_password = 'aaaa'
+}
+
 class passwords::openstack::ceilometer {
     $db_user = 'ceilometer_user'
     $db_pass = 'dummy'
