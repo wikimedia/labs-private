@@ -1,4 +1,5 @@
 postgresql_tilerator_pass: unimportpass
+postgresql_tileratorui_pass: anotherdummypass
 postgresql_kartotherian_pass: unimportpass2
 postgresql_osmimporter_pass: anotherunimportantpass
 postgresql_osmupdater_pass: andanotherone
@@ -11,4 +12,5 @@ postgres_slaves:
     attrs: REPLICATION
     database: replication
 cassandra_tilerator_pass: anotherpass
+cassandra_tileratorui_pass: dummypassagain
 cassandra_kartotherian_pass: moarpass
