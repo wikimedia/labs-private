@@ -399,6 +399,7 @@ class passwords::statistics::user {
 class passwords::cxserver {
     # This is temporary key to test Yandex MT for Content Translation.
     $yandex_api_key = 'trnsl.1.1.20150216T113622Z.2ccb71d878ea0b58.5ac57322acecfa2d9001aad077fdcff21c206a43'
+    $jwt_secret = 'not_a_secret'
 }
 
 class passwords::pdns {
