@@ -304,6 +304,13 @@ class passwords::swift::esams_prod {
     $search_password = 'thekinks'
 }
 
+class passwords::swift::codfw_prod {
+    $super_admin_key = 'paul_johnson'
+    $rewrite_password = 'dj_funk'
+    $dispersion_password = 'dj_sneak'
+    $search_password = 'dj_rush'
+}
+
 class passwords::exim {
     $smtp_ldap_password = 'smtp'
     $otrs_mysql_password = 'otrs'
