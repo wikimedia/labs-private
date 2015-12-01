@@ -427,6 +427,14 @@ class passwords::labs::toollabs {
     $nova_password = 'nobody'
 }
 
+class passwords::openldap::corp {
+    $sync_pass = 'FOOOOOOOOOOOOOOO'
+}
+
+class passwords::openldap::labs {
+    $sync_pass = 'BAAAAAAAAAAAAAAR'
+}
+
 class passwords::tessera {
     $secret_key = 'notsecret'
 }
