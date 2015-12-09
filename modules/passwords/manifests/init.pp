@@ -86,10 +86,6 @@ class passwords::ldap::corp {
     $ldap_user_pass = ''
 }
 
-class passwords::openldap::corp {
-    $sync_pass = 'syncsyncsync'
-}
-
 class passwords::labs::rabbitmq {
     $rabbit_userid = 'auser'
     $rabbit_password  = 'apassword'
