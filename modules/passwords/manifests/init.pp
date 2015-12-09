@@ -4,14 +4,22 @@
 ##################################################
 ##################################################
 
-class passwords::root {
+class passwords::root(
+    $extra_keys = undef,
+){
     user { 'root':
         password => '!',
     }
 
+    if $extra_keys {
+        $flat_extra_keys = join(values($extra_keys), "\n")
+    } else {
+        $flat_extra_keys = ''
+    }
+
     ssh::userkey { 'root':
         ensure => present,
-        source => 'puppet:///private/ssh/root-authorized-keys',
+        content => template('passwords/root-authorized-keys.erb'),
     }
 }
 
