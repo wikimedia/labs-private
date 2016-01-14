@@ -8,3 +8,7 @@ novaconfig:
     db_pass: 'ueThe7moh7Hah'
     ldap_user_pass: 'ueThe7moh7Hah'
     ldap_proxyagent_pass: 'Eche0ieng8UaNoo'
+
+keystoneconfig:
+    ldap_user_pass: 'ueThe7moh7Hah'
+    ldap_proxyagent_pass: 'Eche0ieng8UaNoo'
