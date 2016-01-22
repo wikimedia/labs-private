@@ -448,6 +448,10 @@ class passwords::openldap::labs {
     $sync_pass = 'BAAAAAAAAAAAAAAR'
 }
 
+class passwords::openldap::labtest {
+    $sync_pass = 'FOOOOOOOOBAAAAAAAAAAR'
+}
+
 class passwords::tessera {
     $secret_key = 'notsecret'
 }
