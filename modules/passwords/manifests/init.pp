@@ -459,3 +459,7 @@ class passwords::tessera {
 class passwords::cassandra {
     $restbase = 'notsecret'
 }
+
+class passwords::testreduce::mysql {
+    $db_pass = 'notsecret'
+}
