@@ -461,5 +461,6 @@ class passwords::cassandra {
 }
 
 class passwords::testreduce::mysql {
-    $db_pass = 'notsecret'
+    $db_pass           = 'notsecret'
+    $mysql_client_pass = 'notsecret'
 }
