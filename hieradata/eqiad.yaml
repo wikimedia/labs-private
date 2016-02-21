@@ -16,7 +16,7 @@ keystoneconfig:
 
 labsdnsconfig:
   db_user: 'pdns'
-  db_pass: 'dummmy'
+  db_pass: 'dummy'
   db_admin_user: 'pdns_admin'
   db_admin_pass: 'admindummy'
 
