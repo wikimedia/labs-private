@@ -13,3 +13,10 @@ novaconfig:
 keystoneconfig:
     ldap_user_pass: 'ueThe7moh7Hah'
     ldap_proxyagent_pass: 'Eche0ieng8UaNoo'
+
+labsdnsconfig:
+  db_user: 'pdns'
+  db_pass: 'dummmy'
+  db_admin_user: 'pdns_admin'
+  db_admin_pass: 'admindummy'
+
