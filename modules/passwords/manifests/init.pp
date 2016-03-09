@@ -157,6 +157,7 @@ class passwords::gerrit {
     $gerrit_email_key = 'AsL1PruNcpXuSAIjcCLqT'
     $gerrit_rest_token = 'PeiR/lnSzh/2ntJyd7QZt+fjgWtOFLCdm/I='
     $gerrit_bz_pass = ''
+    $gerrit_phab_cert = ''
 }
 
 class passwords::civi {
