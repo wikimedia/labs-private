@@ -1,0 +1,17 @@
+maps::postgresql_tilerator_pass: unimportpass
+maps::postgresql_tileratorui_pass: anotherdummypass
+maps::postgresql_kartotherian_pass: unimportpass2
+maps::postgresql_osmimporter_pass: anotherunimportantpass
+maps::postgresql_osmupdater_pass: andanotherone
+maps::postgres_slaves:
+  replication@slave1:
+    user: replication
+    password: samepasshere
+    cidr: 10.0.0.1
+    pgversion: 9.4
+    attrs: REPLICATION
+    database: replication
+maps::cassandra_tilerator_pass: anotherpass
+maps::cassandra_tileratorui_pass: dummypassagain
+maps::cassandra_kartotherian_pass: moarpass
+cassandra::super_password: justapass
