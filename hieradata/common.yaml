@@ -1,0 +1,24 @@
+designateconfig:
+  db_user: 'designate'
+  db_pass: 'dummypass1'
+  rabbit_user: 'nova'
+  rabbit_pass: 'dummypass2'
+  pdns_db_user: 'pdns'
+  pdns_db_pass: 'dummypass3'
+  db_admin_user: 'pdns_admin'
+  db_admin_pass: 'dummypass4'
+  wmflabsdotorg_admin: 'wmflabsdotorgadmin'
+  wmflabsdotorg_pass: 'dummypass5'
+
+glanceconfig:
+  db_name: 'glance'
+  db_user: 'glance'
+  db_pass: 'dummypass6'
+  rabbit_user: 'nova'
+  rabbit_pass: 'dummypass7'
+
+keystoneconfig:
+  db_pass: 'dummypass8'
+  ldap_user_pass: 'dummypass9'
+  ldap_proxyagent_pass: 'dummypass10'
+  token_driver_password: 'dummypass11'
