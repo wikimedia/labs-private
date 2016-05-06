@@ -370,7 +370,7 @@ class passwords::rancid {
 }
 
 class passwords::udpmxircecho {
-    $udpmxircecho_pass = "surfin'bird"
+    $udpmxircecho_pass = "FAKEFAKEFAKE"
 }
 
 class passwords::geowiki { }
