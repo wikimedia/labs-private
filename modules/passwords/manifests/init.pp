@@ -79,7 +79,7 @@ class passwords::ldap::initial_setup {
 
 class passwords::ldap::production {
     $proxypass = 'Eche0ieng8UaNoo'
-    $ldap_user_pass = ''
+    $ldap_user_pass = 'ueThe7moh7Hah'
 }
 
 class passwords::ldap::corp {
@@ -94,7 +94,7 @@ class passwords::labs::rabbitmq {
 
 class passwords::ldap::labs {
     $proxypass = 'Eche0ieng8UaNoo'
-    $script_user_pass = ''
+    $script_user_pass = 'ueThe7moh7Hah'
 }
 
 # TODO: remove these classes when references are gone
