@@ -22,3 +22,7 @@ keystoneconfig:
   ldap_user_pass: 'dummypass9'
   ldap_proxyagent_pass: 'dummypass10'
   token_driver_password: 'dummypass11'
+
+labsldapconfig:
+  proxypass: 'Eche0ieng8UaNoo'
+  script_user_pass: 'ueThe7moh7Hah'
