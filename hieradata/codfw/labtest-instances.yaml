@@ -1,3 +1,6 @@
 labsldapconfig:
   proxypass: 'lt-Eche0ieng8UaNoo'
   script_user_pass: 'lt-ueThe7moh7Hah'
+
+passwords::root::extra_keys:
+  alex: ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDdYrWghgUYZZsdh8tw4mRfpsNWCW56ns6tKei3oSHEUNOXnxhAQwnwwkc1LeGYDdPglX3EAbtj0LAUf1muaC99mFYXw+e+7XjZCJYZ5cRrkvDXA/JvxaBvhOid8BZGImeoSqX2ZZ0HQSNRQfzVbs+7yAu0nMB3WSup9eoMnC3OfBsbPvQZ/WDD/OKIwuv8hnYyi8QmQgPngERqIf12ireGIXNn++IMncqu9Z6+skQHiuvkMsWlPjeYtg8gfIS8h8JY1QApVUyqkHuE4Fr/1n/NagsDu1WvE4zuEzQ3TmXZOtikPqSfsLDD5+gqxcaH1iiM+nEeG/RWD9/WyHnVUsIH krenair@gmail.com ubuntu laptop
