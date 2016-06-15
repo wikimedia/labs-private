@@ -12,3 +12,5 @@ novaconfig:
 keystoneconfig:
     ldap_user_pass: 'ueThe7moh7Hah'
     ldap_proxyagent_pass: 'Eche0ieng8UaNoo'
+
+labspuppetbackend::mysql_password:  'dummypass'
