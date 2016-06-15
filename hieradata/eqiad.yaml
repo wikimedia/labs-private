@@ -20,3 +20,4 @@ labsdnsconfig:
   db_admin_user: 'pdns_admin'
   db_admin_pass: 'admindummy'
 
+labspuppetbackend::mysql_password:  'dummypass'

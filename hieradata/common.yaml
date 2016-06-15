@@ -26,3 +26,5 @@ keystoneconfig:
 labsldapconfig:
   proxypass: 'Eche0ieng8UaNoo'
   script_user_pass: 'ueThe7moh7Hah'
+
+labspuppetbackend::mysql_password:  'dummypass'
