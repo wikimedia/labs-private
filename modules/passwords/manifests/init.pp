@@ -178,6 +178,11 @@ class passwords::misc::rt {
     $rt_mysql_pass = 'fakertpassword'
 }
 
+class passwords::misc::private_static_site {
+        $user = "fakeuser"
+        $pass = "fakepass"
+}
+
 class passwords::tendril {
         $db_user = "fakeuser"
         $db_pass = "fakepass"
