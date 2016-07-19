@@ -28,3 +28,10 @@ labsldapconfig:
   script_user_pass: 'ueThe7moh7Hah'
 
 labspuppetbackend::mysql_password:  'dummypass'
+
+wmde_secrets:
+  facebook: pass
+  google: pass
+  mm-wikidata-pass: pass
+  mm-wikidatatech-pass: pass
+  mm-user: pass
