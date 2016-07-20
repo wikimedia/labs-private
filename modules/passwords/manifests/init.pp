@@ -474,3 +474,7 @@ class passwords::testreduce::mysql {
     $db_pass           = 'notsecret'
     $mysql_client_pass = 'notsecret'
 }
+
+class passwords::prometheus {
+    $db_pass = 'notsecret'
+}
