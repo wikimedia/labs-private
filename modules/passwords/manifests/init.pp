@@ -439,6 +439,16 @@ class passwords::grafana {
     $admin_password = 'aaaa'
 }
 
+class passwords::grafana::production {
+    $secret_key     = 'aaaaa'
+    $admin_password = 'aaaa'
+}
+
+class passwords::grafana::labs {
+    $secret_key     = 'aaaaab'
+    $admin_password = 'aaaab'
+}
+
 class passwords::openstack::ceilometer {
     $db_user = 'ceilometer_user'
     $db_pass = 'dummy'
