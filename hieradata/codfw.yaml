@@ -3,6 +3,7 @@ swift::params::account_keys:
     mw_media: nosuchpass2
     dispersion: nosuchpass3
     search_backup: nosuchpass4
+    thumbor: nosuchpass5
 
 novaconfig:
     db_pass: 'ueThe7moh7Hah'
