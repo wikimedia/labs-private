@@ -168,10 +168,6 @@ class passwords::network {
     $router_pass = ''
 }
 
-class passwords::prometheus {
-    $db_pass = ''
-}
-
 class passwords::racktables {
     $racktables_db_user = 'racktables'
     $racktables_db_pass = 'fakebrokenpassword'
