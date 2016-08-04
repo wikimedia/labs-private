@@ -435,6 +435,10 @@ class passwords::labs::toollabs {
     $nova_password = 'nobody'
 }
 
+class passwords::yubiauth {
+    $api_key = 'notreally'
+}
+
 class passwords::openldap::corp {
     $sync_pass = 'FOOOOOOOOOOOOOOO'
 }
