@@ -7,10 +7,6 @@
 class passwords::root(
     $extra_keys = undef,
 ){
-    user { 'root':
-        password => '!',
-    }
-
     if $extra_keys {
         $flat_extra_keys = join(values($extra_keys), "\n")
     } else {
