@@ -473,3 +473,7 @@ class passwords::aqs {
     $aqs_user = 'notsecret'
 }
 
+class passwords::striker {
+    $application_db_password = 'notsecret'
+    $admin_db_password = 'notsecret'
+}
