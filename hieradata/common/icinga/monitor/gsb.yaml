@@ -1,2 +1,2 @@
-client_id: aclientid
-api_key: anapikey
+icinga::monitor::gsb::client_id: aclientid
+icinga::monitor::gsb::api_key: anapikey

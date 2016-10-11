@@ -1,1 +1,1 @@
-root_password: secret
+etcd::auth::common::root_password: secret

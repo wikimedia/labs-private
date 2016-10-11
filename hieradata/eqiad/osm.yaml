@@ -1,1 +1,1 @@
-postgresql_osmupdater_pass: dummypass
+osm::postgresql_osmupdater_pass: dummypass

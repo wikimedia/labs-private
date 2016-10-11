@@ -1,1 +1,1 @@
-replication_pass: yustadummypass
+postgresql::slave::replication_pass: yustadummypass
