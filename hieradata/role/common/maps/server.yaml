@@ -3,6 +3,8 @@ maps::postgresql_tileratorui_pass: anotherdummypass
 maps::postgresql_kartotherian_pass: unimportpass2
 maps::postgresql_osmimporter_pass: anotherunimportantpass
 maps::postgresql_osmupdater_pass: andanotherone
+maps::postgresql_replication_pass: somepass
+maps::postgresql_monitoring_pass: someanotherpass
 maps::postgres_slaves:
   replication@slave1:
     user: replication
