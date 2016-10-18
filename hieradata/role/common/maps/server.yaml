@@ -7,12 +7,7 @@ maps::postgresql_replication_pass: somepass
 maps::postgresql_monitoring_pass: someanotherpass
 maps::postgres_slaves:
   replication@slave1:
-    user: replication
-    password: samepasshere
-    cidr: 10.0.0.1
-    pgversion: 9.4
-    attrs: REPLICATION
-    database: replication
+    ip_address: 10.0.0.1
 maps::cassandra_tilerator_pass: anotherpass
 maps::cassandra_tileratorui_pass: dummypassagain
 maps::cassandra_kartotherian_pass: moarpass
