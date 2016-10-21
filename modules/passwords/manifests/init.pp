@@ -474,3 +474,8 @@ class passwords::striker {
     $application_db_password = 'notsecret'
     $admin_db_password = 'notsecret'
 }
+
+class passwords::labs::db::proxy {
+    $admin_user = 'notsecret'
+    $admin_password = 'notsecret'
+}
