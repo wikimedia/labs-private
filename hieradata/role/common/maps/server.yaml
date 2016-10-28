@@ -5,9 +5,6 @@ maps::postgresql_osmimporter_pass: anotherunimportantpass
 maps::postgresql_osmupdater_pass: andanotherone
 maps::postgresql_replication_pass: somepass
 maps::postgresql_monitoring_pass: someanotherpass
-maps::postgres_slaves:
-  replication@slave1:
-    ip_address: 10.0.0.1
 maps::cassandra_tilerator_pass: anotherpass
 maps::cassandra_tileratorui_pass: dummypassagain
 maps::cassandra_kartotherian_pass: moarpass
