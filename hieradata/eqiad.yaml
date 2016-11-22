@@ -11,6 +11,10 @@ novaconfig:
     ldap_user_pass: 'ueThe7moh7Hah'
     ldap_proxyagent_pass: 'Eche0ieng8UaNoo'
 
+wikitechstatusconfig:
+  user: 'fakebotname'
+  pass: 'dummy'
+
 keystoneconfig:
     ldap_user_pass: 'ueThe7moh7Hah'
     ldap_proxyagent_pass: 'Eche0ieng8UaNoo'
