@@ -479,3 +479,8 @@ class passwords::labs::db::proxy {
     $admin_user = 'notsecret'
     $admin_password = 'notsecret'
 }
+
+class passwords::labsdb::maintainviews {
+    $user = 'notsecret'
+    $db_pass = 'notsecret'
+}
