@@ -484,3 +484,11 @@ class passwords::labsdb::maintainviews {
     $user = 'notsecret'
     $db_pass = 'notsecret'
 }
+
+class passwords::labspuppet {
+    $db_password = 'notsecret'
+}
+
+class passwords::labsdbaccounts {
+    $db_password = 'notsecret'
+}
