@@ -26,3 +26,4 @@ labsdnsconfig:
   db_admin_pass: 'admindummy'
 
 labspuppetbackend::mysql_password:  'dummypass'
+labspuppetbackend_mysql_password: 'dummypass'

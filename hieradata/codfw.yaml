@@ -15,3 +15,4 @@ keystoneconfig:
     ldap_proxyagent_pass: 'Eche0ieng8UaNoo'
 
 labspuppetbackend::mysql_password:  'dummypass'
+labspuppetbackend_mysql_password: 'dummypass'
