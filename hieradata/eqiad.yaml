@@ -10,6 +10,8 @@ novaconfig:
     db_pass: 'ueThe7moh7Hah'
     ldap_user_pass: 'ueThe7moh7Hah'
     ldap_proxyagent_pass: 'Eche0ieng8UaNoo'
+    observer_user: 'novaobserver'
+    observer_password: 'Fs6Dq2RtG8KwmM2Z'
 
 wikitechstatusconfig:
   user: 'fakebotname'
