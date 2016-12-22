@@ -35,3 +35,13 @@ wmde_secrets:
   mm-wikidata-pass: pass
   mm-wikidatatech-pass: pass
   mm-user: pass
+
+k8s_infrastructure_users:
+ - name: number1
+   type: infrastructure-readwrite
+   token: dummydummy
+   id: 1
+ - name: number2
+   type: infrastructure-readonly
+   token: dummydummydummy
+   id: 2
