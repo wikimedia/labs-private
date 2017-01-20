@@ -1,0 +1,17 @@
+docker::username: docker
+docker::password_hash: '$apr1$st5G0d8l$IcJeBIljkbSRhjrMIiH02/' # "not a real password"
+docker::password: 'not a real password'
+k8s_infrastructure_users:
+  - name: client-infrastructure
+    type: infrastructure-readwrite
+    token: faketoken
+    id: 1
+  - name: proxy-infrastructure
+    type: infrastructure-readonly
+    token: faketoken
+    id: 2
+  - name: prometheus
+    type: infrastructure-readonly
+    token: faketoken
+    id: 3
+
