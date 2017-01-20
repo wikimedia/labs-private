@@ -47,7 +47,7 @@ class passwords::openstack::nova {
 
 class passwords::openstack::api {
     $nova_observer_name = 'novaobserver'
-    $nova_observer_pass = 'P1r6AfubeS'
+    $nova_observer_pass = 'Fs6Dq2RtG8KwmM2Z'
 }
 
 class passwords::openstack::neutron {
