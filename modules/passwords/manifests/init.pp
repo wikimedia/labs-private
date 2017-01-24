@@ -273,6 +273,7 @@ class passwords::mysql::wikimania_scholarships {
 
 class passwords::redis {
     $main_password = 'Q6dzak4k9vjYjh341fHS'
+    $ores_password = 'seagullsoup'
 }
 
 class passwords::geoip {
