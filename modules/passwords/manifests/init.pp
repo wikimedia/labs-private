@@ -481,6 +481,11 @@ class passwords::labs::db::proxy {
     $admin_password = 'notsecret'
 }
 
+class passwords::mirrors {
+    $debian_rsync_username = 'username'
+    $debian_rsync_password = 'password'
+}
+
 class passwords::labsdb::maintainviews {
     $user = 'notsecret'
     $db_pass = 'notsecret'
@@ -494,7 +499,3 @@ class passwords::labsdbaccounts {
     $db_password = 'notsecret'
 }
 
-class passwords::mirrors {
-    $debian_rsync_username = 'notsecret'
-    $debian_rsync_password = 'notsecret'
-}
