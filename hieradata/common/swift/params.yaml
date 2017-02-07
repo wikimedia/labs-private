@@ -2,3 +2,14 @@ swift::params::replication_keys:
     mw_media:
         key:  'key1'
         key2: 'key2'
+
+swift::params::account_keys:
+    super_admin: dummy
+    mw_media: dummy
+    mw_thumbor: dummy
+    dispersion: dummy
+    search_backup: dummy
+    docker_registry: dummy
+
+swift::params::account_temp_url_keys:
+    mw_media: dummy
