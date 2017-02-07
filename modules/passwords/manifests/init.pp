@@ -493,3 +493,8 @@ class passwords::labspuppet {
 class passwords::labsdbaccounts {
     $db_password = 'notsecret'
 }
+
+class passwords::mirrors {
+    $debian_rsync_username = 'notsecret'
+    $debian_rsync_password = 'notsecret'
+}
