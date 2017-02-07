@@ -1,0 +1,2 @@
+docker::registry::hash: "dummy"
+profile::docker::registry::swift_password: "dummy"
