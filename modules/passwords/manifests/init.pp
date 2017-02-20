@@ -24,17 +24,18 @@ class passwords::certs {
 }
 
 class passwords::misc::scripts {
-    $cachemgr_pass   = 'IamNotSet'
-    $mysql_root_pass = 'IamNotSet'
-    $nagios_sql_pass = 'IamNotSet'
-    $webshop_pass    = 'IamNotSet'
-    $wikiadmin_pass  = 'fdgaggrehresjarejas'
-    $wikiuser2_pass  = 'IamNotSet'
-    $wikiuser_pass   = 'IamNotSet'
-    $wikiuser_pass_nagios = 'IamNotSet'
-    $wikiuser_pass_real   = 'IamNotSet'
-    $wikinotifier_user = 'labslogbot'
-    $wikinotifier_pass = 'dumbpassword'
+    $cachemgr_pass          = 'IamNotSet'
+    $mysql_root_pass        = 'IamNotSet'
+    $mysql_labsdb_root_pass = 'IamNotSet'
+    $nagios_sql_pass        = 'IamNotSet'
+    $webshop_pass           = 'IamNotSet'
+    $wikiadmin_pass         = 'fdgaggrehresjarejas'
+    $wikiuser2_pass         = 'IamNotSet'
+    $wikiuser_pass          = 'IamNotSet'
+    $wikiuser_pass_nagios   = 'IamNotSet'
+    $wikiuser_pass_real     = 'IamNotSet'
+    $wikinotifier_user      = 'labslogbot'
+    $wikinotifier_pass      = 'dumbpassword'
 }
 
 class passwords::openstack::nova {
