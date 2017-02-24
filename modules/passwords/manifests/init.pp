@@ -500,3 +500,9 @@ class passwords::labsdbaccounts {
     $db_password = 'notsecret'
 }
 
+class passwords::etcd {
+    $accounts = {
+        'root'     => 'Wikipedia',
+        'conftool' => 'another_secret',
+    }
+}
