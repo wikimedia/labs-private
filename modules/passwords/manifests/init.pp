@@ -220,6 +220,11 @@ class passwords::mysql::research {
     $pass = 'standup'
 }
 
+class passwords::mysql::analytics_labsdb {
+    $user = 'ann'
+    $pass = 'yong'
+}
+
 class passwords::mysql::otrs {
     $user = 'user'
     $pass = 'pass'
