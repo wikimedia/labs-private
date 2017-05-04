@@ -498,3 +498,8 @@ class passwords::etcd {
         'conftool' => 'another_secret',
     }
 }
+
+class passwords::icinga {
+    $nsca_decrypt_password = 'fakenotsecrettest'
+}
+
