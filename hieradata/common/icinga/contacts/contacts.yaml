@@ -8,3 +8,7 @@ icinga::contacts::emustermann::email: ejmustermann@example.com
 icinga::contacts::emustermann::pager: +15558675309
 icinga::contacts::emustermann::adddress1: 5558675309@example.net
 
+# dzahn
+icinga::contacts::dzahn::email: dzahn@example.net
+icinga::contacts::dzahn::pager: +12025550136
+icinga::contacts::dzahn::adddress1: 12025550136@example.net
