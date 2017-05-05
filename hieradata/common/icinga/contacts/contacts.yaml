@@ -1,0 +1,10 @@
+# John Doe
+icinga::contacts::jdoe::email: jdoe@example.com
+icinga::contacts::jdoe::pager: +13115552368
+icinga::contacts::jdoe::adddress1: 3115552368@example.org
+
+# Jenny Mustermann
+icinga::contacts::jdoe::email: jmustermann@example.com
+icinga::contacts::jdoe::pager: +15558675309
+icinga::contacts::jdoe::adddress1: 5558675309@example.net
+
