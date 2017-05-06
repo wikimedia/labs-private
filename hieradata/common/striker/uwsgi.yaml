@@ -1,0 +1,20 @@
+striker::uwsgi::secret_config:
+  secrets:
+    # 50 char random string used by Django to salt things
+    SECRET_KEY: 'fake'
+  ldap:
+    BIND_PASSWORD: fake
+  oauth:
+    CONSUMER_SECRET: fake
+  phabricator:
+    TOKEN: fake
+  db:
+    PASSWORD: 'fake'
+  wikitech:
+    ACCESS_SECRET: fake
+    ACCESS_TOKEN: fake
+    CONSUMER_SECRET: fake
+    CONSUMER_TOKEN: fake
+  openstack:
+    PASSWORD: 'dummy'
+    USER: novaadmin
