@@ -1,1 +1,1 @@
-profile::restbase:salt_key: 'secretkey'
+profile::restbase::salt_key: 'secretkey'
