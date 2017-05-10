@@ -7,4 +7,4 @@ profile::maps::osm_master::replication_pass: somepass
 profile::maps::cassandra::kartotherian_pass: moarpass
 profile::maps::cassandra::tilerator_pass: anotherpass
 profile::maps::cassandra::tileratorui_pass: dummypassagain
-profile::maps::cassandra::super_pass: justapass
+profile::cassandra::single_instance::super_pass: justapass
