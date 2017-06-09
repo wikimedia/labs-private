@@ -344,9 +344,6 @@ class passwords::postgres {
     $ganglia_pass = 'foryourright'
     $labsadmin_password = 'toparty'
 }
-class passwords::rancid {
-    $rancidpass = 'theclash'
-}
 
 class passwords::udpmxircecho {
     $udpmxircecho_pass = "FAKEFAKEFAKE"
