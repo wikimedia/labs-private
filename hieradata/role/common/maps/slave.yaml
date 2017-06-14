@@ -8,3 +8,4 @@ profile::maps::cassandra::kartotherian_pass: moarpass
 profile::maps::cassandra::tilerator_pass: anotherpass
 profile::maps::cassandra::tileratorui_pass: dummypassagain
 profile::cassandra::single_instance::super_pass: justapass
+profile::maps::apps::redis_pass: yetanotherpass
