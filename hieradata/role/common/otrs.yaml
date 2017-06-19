@@ -1,0 +1,2 @@
+profile::otrs::database_pass: pass
+profile::otrs::exim_database_pass: pass

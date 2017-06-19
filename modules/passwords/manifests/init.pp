@@ -225,11 +225,6 @@ class passwords::mysql::analytics_labsdb {
     $pass = 'yong'
 }
 
-class passwords::mysql::otrs {
-    $user = 'user'
-    $pass = 'pass'
-}
-
 class passwords::mysql::phabricator {
     $admin_user = 'admin_user'
     $admin_pass = 'admin_pass'
