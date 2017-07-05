@@ -1,1 +1,1 @@
-ores::web::redis_password: apassword
+profile::ores::web::redis_password: apassword
