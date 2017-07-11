@@ -1,1 +1,2 @@
 docker::registry::username: blahblah
+docker::registry::password: notreally
