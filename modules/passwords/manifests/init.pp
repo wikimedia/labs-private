@@ -499,3 +499,6 @@ class passwords::icinga {
     $nsca_decrypt_password = 'fakenotsecrettest'
 }
 
+class passwords::rddmarc {
+    $db_password = 'notsecret'
+}
