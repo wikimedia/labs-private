@@ -13,6 +13,7 @@ novaconfig:
     observer_project: 'observer'
     observer_user: 'novaobserver'
     observer_password: 'Fs6Dq2RtG8KwmM2Z'
+profile::openstack::main::observer_password: 'Fs6Dq2RtG8KwmM2Z'
 
 wikitechstatusconfig:
   user: 'fakebotname'
