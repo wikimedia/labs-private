@@ -4,6 +4,7 @@ swift::params::account_keys:
     dispersion: nosuchpass3
     search_backup: nosuchpass4
     thumbor: nosuchpass5
+    pagecompilation_zim: nosuchpass6
 
 novaconfig:
     db_pass: 'ueThe7moh7Hah'
