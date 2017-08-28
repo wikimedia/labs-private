@@ -1,1 +1,3 @@
 profile::openstack::main::observer_password: 'Fs6Dq2RtG8KwmM2Z'
+profile::openstack::main::rabbit_monitor_pass: 'lp-main_rabbit_monitor_pass'
+profile::openstack::main::ldap_user_pass: 'lp-main_ldap_user_pass'

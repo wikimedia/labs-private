@@ -1,0 +1,1 @@
+profile::openstack::labtestn::glance::db_pass: 'lp-glance_db_pass'

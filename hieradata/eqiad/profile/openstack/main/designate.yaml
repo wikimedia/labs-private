@@ -1,0 +1,2 @@
+profile::openstack::main::designate::wmflabsdotorg_admin: 'lp-designate_wmflabsdotorg_admin'
+profile::openstack::main::designate::wmflabsdotorg_pass: 'lp-designate_wmflabsdotorg_pass'

@@ -1,0 +1,1 @@
+profile::openstack::labtestn::nova::db_pass: 'lp-nova-db_pass'
