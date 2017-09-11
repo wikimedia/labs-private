@@ -1,2 +1,5 @@
-profile::openstack::main::designate::wmflabsdotorg_admin: 'lp-designate_wmflabsdotorg_admin'
-profile::openstack::main::designate::wmflabsdotorg_pass: 'lp-designate_wmflabsdotorg_pass'
+profile::openstack::main::designate::wmflabsdotorg_admin: 'main_designate_wmflabsdotorg_admin'
+profile::openstack::main::designate::wmflabsdotorg_pass: 'main_designate_wmflabsdotorg_pass'
+profile::openstack::main::designate::db_pass: 'main_designate_db_pass'
+profile::openstack::main::designate::pdns_db_pass: 'main_designate_pdns_db_pass'
+profile::openstack::main::designate::db_admin_pass: 'main_designate_db_admin_pass'

@@ -1,2 +1,5 @@
 profile::openstack::labtestn::designate::wmflabsdotorg_admin: 'lp-designate_wmflabsdotorg_admin'
 profile::openstack::labtestn::designate::wmflabsdotorg_pass: 'lp-designate_wmflabsdotorg_pass'
+profile::openstack::labtestn::designate::db_pass: 'lpn-designate_db_pass'
+profile::openstack::labtestn::designate::pdns_db_pass: 'lpn-designate_pdns_db_pass'
+profile::openstack::labtestn::designate::db_admin_pass: 'lpn-designate_db_admin_pass'
