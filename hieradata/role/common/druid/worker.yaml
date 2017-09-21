@@ -1,0 +1,4 @@
+profile::druid::tlsproxy::accounts:
+  aqs: 'NaNaNaNa1111'
+  hadoop: '111batman'
+profile::druid::tlsproxy::salt: '42'
