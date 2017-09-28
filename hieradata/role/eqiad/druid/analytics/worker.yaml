@@ -1,0 +1,2 @@
+profile::druid::common::private_properties:
+  druid.metadata.storage.connector.password=password_from_private_repo
