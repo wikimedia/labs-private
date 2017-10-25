@@ -1,0 +1,1 @@
+profile::openstack::labtest::puppetmaster::encapi::db_pass: 'a'

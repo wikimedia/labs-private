@@ -1,0 +1,1 @@
+profile::openstack::main::puppetmaster::encapi::db_pass: 'a'
