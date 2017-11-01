@@ -502,3 +502,8 @@ class passwords::icinga {
 class passwords::rddmarc {
     $db_password = 'notsecret'
 }
+
+class passwords::netbox {
+    $db_password = 'notsecret'
+    $secret_key = 'notsecret'
+}
