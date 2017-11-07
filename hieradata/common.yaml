@@ -37,15 +37,15 @@ wmde_secrets:
   mm-user: pass
 
 k8s_infrastructure_users:
- - name: client-infrastructure
+  client-infrastructure:
     type: infrastructure-readwrite
     token: dummydummy
     id: 1
- - name: node
+  node:
     type: system:node
     token: dummydummydummy
     id: 2
- - name: monitoring
+  monitoring:
     type: infrastructure-readonly
     token: dummydummydummy
     id: 3
