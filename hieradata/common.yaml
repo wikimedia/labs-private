@@ -38,10 +38,14 @@ wmde_secrets:
 
 k8s_infrastructure_users:
  - name: client-infrastructure
-   type: infrastructure-readwrite
-   token: dummydummy
-   id: 1
+    type: infrastructure-readwrite
+    token: dummydummy
+    id: 1
+ - name: node
+    type: system:node
+    token: dummydummydummy
+    id: 2
  - name: monitoring
-   type: infrastructure-readonly
-   token: dummydummydummy
-   id: 2
+    type: infrastructure-readonly
+    token: dummydummydummy
+    id: 3
