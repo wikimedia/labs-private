@@ -507,4 +507,5 @@ class passwords::rddmarc {
 class passwords::netbox {
     $db_password = 'notsecret'
     $secret_key = 'notsecret'
+    $replication_password = 'notsecret'
 }
