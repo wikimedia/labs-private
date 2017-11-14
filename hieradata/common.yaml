@@ -49,3 +49,7 @@ k8s_infrastructure_users:
     type: infrastructure-readonly
     token: dummydummydummy
     id: 3
+  prometheus:
+    type: infrastructure-readonly
+    token: dummydummydummy
+    id: 4
