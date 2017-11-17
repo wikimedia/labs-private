@@ -36,6 +36,17 @@ wmde_secrets:
   mm-wikidatatech-pass: pass
   mm-user: pass
 
+# Icinga contact (fake) secrets
+icinga_contact_secrets:
+  bblack: # Brandon Black
+    email: 'test@example.com'
+    pager: '15417543010'
+    address1: '5417543010@msg.fi.google.com'
+  dzahn: # Daniel Zahn
+    email: 'foobar@example.com'
+    pager: '15555551234'
+    address1: '5555551234@msg.fi.google.com'
+
 k8s_infrastructure_users:
   client-infrastructure:
     type: infrastructure-readwrite
