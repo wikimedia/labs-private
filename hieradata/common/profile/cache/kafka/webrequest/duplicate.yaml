@@ -1,1 +1,0 @@
-profile::cache::kafka::webrequest::duplicate::ssl_key_password: 'this_is_not_a_secret'
