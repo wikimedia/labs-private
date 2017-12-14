@@ -509,3 +509,7 @@ class passwords::netbox {
     $secret_key = 'notsecret'
     $replication_password = 'notsecret'
 }
+
+class passwords::birdlg {
+    $secret_key = 'notsecret'
+}
