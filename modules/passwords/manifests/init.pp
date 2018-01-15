@@ -408,6 +408,7 @@ class passwords::grafana::production {
     $admin_password = 'aaaa'
 }
 
+# DEPRECATE
 class passwords::grafana::labs {
     $secret_key     = 'aaaaab'
     $admin_password = 'aaaab'
