@@ -1,0 +1,2 @@
+profile::grafana::secret_key: aaaaa
+profile::grafana::admin_password: aaaa

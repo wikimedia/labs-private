@@ -398,17 +398,13 @@ class passwords::designate {
     $db_pass = 'dummy'
 }
 
-class passwords::grafana {
-    $secret_key     = 'aaaaa'
-    $admin_password = 'aaaa'
-}
-
+# DEPRECATED - 2017-01-15
 class passwords::grafana::production {
     $secret_key     = 'aaaaa'
     $admin_password = 'aaaa'
 }
 
-# DEPRECATE
+# DEPRECATED - 2017-01-15
 class passwords::grafana::labs {
     $secret_key     = 'aaaaab'
     $admin_password = 'aaaab'
