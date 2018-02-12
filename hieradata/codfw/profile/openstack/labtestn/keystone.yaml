@@ -7,3 +7,4 @@ profile::openstack::labtestn::keystone::wiki_consumer_token: 'lp-keystone_wiki_c
 profile::openstack::labtestn::keystone::wiki_consumer_secret: 'lp-keystone_wiki_consumer_secret'
 profile::openstack::labtestn::keystone::wiki_access_token: 'lp-keysone_wiki_access_token'
 profile::openstack::labtestn::keystone::wiki_access_secret: 'lp-keystone_wiki_access_secret'
+profile::openstack::labtestn::keystone::admin_token: 'asdf'
