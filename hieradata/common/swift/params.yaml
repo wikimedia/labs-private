@@ -14,5 +14,3 @@ swift::params::account_keys:
 
 swift::params::account_temp_url_keys:
     mw_media: dummy
-
-swift::params::private_containers_secret: dummy
