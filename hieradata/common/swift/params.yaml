@@ -7,7 +7,7 @@ swift::params::account_keys:
     super_admin: dummy
     mw_media: dummy
     mw_thumbor: dummy
-    mw_thumbor_private: dummy
+    mw_thumbor-private: dummy
     dispersion: dummy
     search_backup: dummy
     docker_registry: dummy
