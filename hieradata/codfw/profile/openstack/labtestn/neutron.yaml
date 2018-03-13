@@ -1,0 +1,2 @@
+profile::openstack::labtestn::neutron::db_pass: 'ltn-neutron_db_pass'
+profile::openstack::labtestn::neutron::rabbit_pass: 'ltn-neutron_rabbit_pass'
