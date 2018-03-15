@@ -1,0 +1,2 @@
+# If set to empty string it will be randomly generated each time
+profile::puppetboard::flask_secret_key: ''
