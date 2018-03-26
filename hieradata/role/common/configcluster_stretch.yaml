@@ -1,0 +1,4 @@
+profile::etcd::tlsproxy::accounts:
+  root: Wikipedia
+  conftool: testtest
+profile::etcd::tlsproxy::salt: "9sBweWh0J"
