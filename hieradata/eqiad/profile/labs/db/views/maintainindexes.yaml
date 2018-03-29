@@ -1,4 +1,3 @@
-profile::labs::db::views::maintainviews::user: 'notsecret'
-profile::labs::db::views::maintainviews::db_pass: 'notsecret'
 profile::labs::db::views::maintainindexes::user: 'notsecret'
 profile::labs::db::views::maintainindexes::db_pass: 'notsecret'
+

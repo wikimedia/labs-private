@@ -1,0 +1,3 @@
+profile::labs::db::views::maintainviews::user: 'notsecret'
+profile::labs::db::views::maintainviews::db_pass: 'notsecret'
+
