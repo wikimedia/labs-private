@@ -3,4 +3,3 @@ profile::kubernetes::deployment_server::tokens:
     token: dummy
   mathoid:
     token: dummy
-profile::kubernetes::deployment_server::git_owner: trebuchet
