@@ -1,1 +1,2 @@
 profile::debmonitor::server::django_mysql_db_password: dummy
+profile::debmonitor::server::django_secret_key: dummy
