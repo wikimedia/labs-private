@@ -12,6 +12,7 @@ swift::params::account_keys:
     search_backup: dummy
     docker_registry: dummy
     pagecompilation_zim: dummy
+    phabricator_files: dummy
 
 swift::params::account_temp_url_keys:
     mw_media: dummy
