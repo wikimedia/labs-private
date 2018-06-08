@@ -2,3 +2,4 @@ profile::openstack::eqiad1::rabbit_monitor_pass: a_password
 profile::openstack::eqiad1::rabbit_cleanup_pass: a_password
 profile::openstack::eqiad1::observer_password: a_password
 profile::openstack::eqiad1::ldap_user_pass: a_password
+profile::openstack::eqiad1::nova::rabbit_pass: a_password
