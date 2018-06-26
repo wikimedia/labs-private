@@ -7,3 +7,4 @@ profile::openstack::eqiad1::keystone::wiki_consumer_token: 'lp-keystone_wiki_con
 profile::openstack::eqiad1::keystone::wiki_consumer_secret: 'lp-keystone_wiki_consumer_secret'
 profile::openstack::eqiad1::keystone::wiki_access_token: 'lp-keysone_wiki_access_token'
 profile::openstack::eqiad1::keystone::wiki_access_secret: 'lp-keystone_wiki_access_secret'
+profile::openstack::eqiad1::keystone::admin_token: 'asdasd'
