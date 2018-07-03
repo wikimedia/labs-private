@@ -1,0 +1,4 @@
+profile::hive::metastore::database::db_root_username: 'root'
+profile::hive::metastore::database::db_root_password: 'batman'
+profile::oozie::server::database::db_root_username: 'root'
+profile::oozie::server::database::db_root_password: 'batman'
