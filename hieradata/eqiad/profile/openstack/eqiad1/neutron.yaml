@@ -1,2 +1,3 @@
 profile::openstack::eqiad1::neutron::rabbit_pass: a_password
 profile::openstack::eqiad1::neutron::db_pass: another_password
+profile::openstack::eqiad1::neutron::metadata_proxy_shared_secret: 'eqiad1-neutron_metadata_proxy_shared_secret'
