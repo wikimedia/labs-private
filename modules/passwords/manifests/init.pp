@@ -411,12 +411,6 @@ class passwords::grafana::labs {
     $admin_password = 'aaaab'
 }
 
-class passwords::openstack::ceilometer {
-    $db_user = 'ceilometer_user'
-    $db_pass = 'dummy'
-    $secret_key = 'aaaaaaaaaaaaaaaa'
-}
-
 class passwords::labs::toollabs {
     $nova_user = 'nobody'
     $nova_password = 'nobody'
