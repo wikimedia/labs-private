@@ -388,6 +388,7 @@ class passwords::cxserver {
     $matxin_api_key = 'dummykey'
     # JWT token for ContentTranslation
     $jwt_secret = 'H.9F-.|,SC#Von%?Tklo"a<uPFOcxI$>'
+    $lingocloud_api_key = 'dummykey'
 }
 
 class passwords::pdns {
