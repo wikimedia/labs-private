@@ -511,3 +511,9 @@ class passwords::netbox {
 class passwords::birdlg {
     $secret_key = 'notsecret'
 }
+
+class passwords::recommendationapi::mysql {
+   $recommendationapi_pass = 'notsecret'
+   $recommendationapiservice_pass = 'notsecret'
+}
+
