@@ -162,6 +162,7 @@ class passwords::civi {
 
 class passwords::network {
     $router_pass = ''
+    $snmp_ro_community = ''
 }
 
 class passwords::racktables {
