@@ -1,2 +1,3 @@
 profile::openstack::eqiad1::nova::rabbit_pass: a_password
 profile::openstack::eqiad1::nova::db_pass: 'eqiad1-nova-db_pass'
+profile::openstack::eqiad1::nova::fullstack_pass: 'eqiad1-fullstack-pass'
