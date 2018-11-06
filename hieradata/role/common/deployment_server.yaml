@@ -3,3 +3,5 @@ profile::kubernetes::deployment_server::tokens:
     token: dummy
   mathoid:
     token: dummy
+  zotero:
+    token: dummy

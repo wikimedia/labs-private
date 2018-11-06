@@ -2,4 +2,6 @@ docker::registry::password: 'somesecret'
 profile::kubernetes::deployment_server::tokens:
   mathoid:
     token: dummytoken
+  zotero:
+    token: dummytoken
 profile::ci::kubernetes_config::token: dummytoken
