@@ -382,7 +382,7 @@ class passwords::phabricator {
     $ops_monitoring_bot_token = 'api-dummy-token'
     $phabtools_cert = 'phabtools_cert'
     $phabtools_user = 'phabtools_user'
-    gerritbot_token = 'gerritbot_token'
+    $gerritbot_token = 'gerritbot_token'
 }
 
 class passwords::statistics::user {
