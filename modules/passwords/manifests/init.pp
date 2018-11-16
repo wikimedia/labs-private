@@ -237,6 +237,12 @@ class passwords::mysql::phabricator {
     #temp accounting instance for legalpad
     $radon_admin_pass = 'radon_admin_pass'
     $radon_app_pass = 'radon_app_pass'
+    $bz_user = 'bz_user'
+    $bz_pass = 'bz_pass'
+    $rt_user = 'rt_user'
+    $rt_pass = 'rt_pass'
+    $manifest_user = 'manifest_user'
+    $manifest_pass = 'manifest_pass'
 }
 
 class passwords::mysql::querydigest {
@@ -374,6 +380,8 @@ class passwords::phabricator {
     $emailbot_cert = 'qz9j1xkk2gagay6iecsc1jnr5irhsl890aywumntq4a722n1bicflgo16q2r7o9f4h2emcd42g7rwpfl7s3ggiubw65uu7jdd3gjtvb6pup44tvbsn01z4ee6xubma8n0d0iyjzn9myadp2sw93lk0ezg49utj4ykarq8ti850860ojtgpji0joqzir2r46k4ygcmj2j4kinytr4musw34d6cjaea48mwtim9xvjrs6dow9d3easgdpc1q21ehn'
     $pastebot_cert = 'l2noi4u2hl34me23tz9dwo5go7mdx06j62xppt28famvvkoeuw6sk8kn9ndc0oxd6yina11l8pj2lxpyxwz56e41n6fgxth1jdppar91b9mfiign9270ih2jxysv3zt0hlkm0vlhnwyaza6log0ertuvwdgggxvdeesu4cjdhby141ie9wpfyfe1bjy05bq5om5d314u2fh49797556n9ifesu5xelfuqrfkx4bedqz0tnt91ckomqii7wbiy2e'
     $ops_monitoring_bot_token = 'api-dummy-token'
+    $phabtools_cert = 'phabtools_cert'
+    $phabtools_user = 'phabtools_user'
 }
 
 class passwords::statistics::user {
