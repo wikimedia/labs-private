@@ -243,6 +243,8 @@ class passwords::mysql::phabricator {
     $rt_pass = 'rt_pass'
     $manifest_user = 'manifest_user'
     $manifest_pass = 'manifest_pass'
+    $metrics_user = 'metrics_user'
+    $metrics_pass = 'metrics_pass'
 }
 
 class passwords::mysql::querydigest {
