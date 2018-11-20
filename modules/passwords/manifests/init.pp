@@ -289,7 +289,9 @@ class passwords::logstash {
     $redis = '73HaA7xh2ZEq'
 }
 
-class passwords::librenms { }
+class passwords::librenms {
+    $ircbot_pass = 'nickserv_fake_password'
+}
 
 class passwords::bugzilla {
     $bugzilla_db_pass = 'snakeoil'
@@ -530,4 +532,3 @@ class passwords::recommendationapi::mysql {
    $recommendationapi_pass = 'notsecret'
    $recommendationapiservice_pass = 'notsecret'
 }
-
