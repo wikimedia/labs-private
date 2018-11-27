@@ -4,4 +4,6 @@ profile::kubernetes::deployment_server::tokens:
     token: dummytoken
   zotero:
     token: dummytoken
+  graphoid:
+    token: dummytoken
 profile::ci::kubernetes_config::token: dummytoken

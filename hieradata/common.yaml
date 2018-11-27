@@ -56,15 +56,23 @@ k8s_infrastructure_users:
     type: system:node
     token: dummydummydummy
     id: 2
-  monitoring:
-    type: infrastructure-readonly
-    token: dummydummydummy
-    id: 3
   prometheus:
     type: infrastructure-readonly
     token: dummydummydummy
-    id: 4
+    id: 3
   system:kube-proxy:
     type: system:node
     token: dummydummydummy
+    id: 4
+  mathoid:
     id: 5
+    token: dummydummydummy
+    type: deploy
+  jenkins:
+    id: 6
+    token: dummydummydummy
+    type: deploy
+  zotero:
+    id: 7
+    token: dummydummydummy
+    type: deploy

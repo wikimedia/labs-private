@@ -5,3 +5,5 @@ profile::kubernetes::deployment_server::tokens:
     token: dummy
   zotero:
     token: dummy
+  graphoid:
+    token: dummy
