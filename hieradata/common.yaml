@@ -76,3 +76,7 @@ k8s_infrastructure_users:
     id: 7
     token: dummydummydummy
     type: deploy
+  graphoid:
+    id: 8
+    token: dummydummydummy
+    type: deploy
