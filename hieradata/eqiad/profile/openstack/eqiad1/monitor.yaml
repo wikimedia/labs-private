@@ -1,0 +1,1 @@
+profile::openstack::eqiad1::monitor::spread_check_password: 'lp-monitor_spread_check_password'
