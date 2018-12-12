@@ -387,6 +387,7 @@ class passwords::phabricator {
     $phabtools_cert = 'phabtools_cert'
     $phabtools_user = 'phabtools_user'
     $gerritbot_token = 'gerritbot_token'
+    $offboarding_script_token = 'offboarding-dummy-token'
 }
 
 class passwords::statistics::user {
