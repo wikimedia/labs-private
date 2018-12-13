@@ -7,3 +7,5 @@ profile::kubernetes::deployment_server::tokens:
     token: dummy
   graphoid:
     token: dummy
+  blubberoid:
+    token: dummy

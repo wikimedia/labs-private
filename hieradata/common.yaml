@@ -80,3 +80,7 @@ k8s_infrastructure_users:
     id: 8
     token: dummydummydummy
     type: deploy
+  blubberoid:
+    id: 9
+    token: dummydummydummy
+    type: deploy

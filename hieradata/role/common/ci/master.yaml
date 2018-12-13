@@ -6,4 +6,6 @@ profile::kubernetes::deployment_server::tokens:
     token: dummytoken
   graphoid:
     token: dummytoken
+  blubberoid:
+    token: dummytoken
 profile::ci::kubernetes_config::token: dummytoken
