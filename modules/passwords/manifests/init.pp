@@ -407,6 +407,7 @@ class passwords::cxserver {
     # JWT token for ContentTranslation
     $jwt_secret = 'H.9F-.|,SC#Von%?Tklo"a<uPFOcxI$>'
     $lingocloud_api_key = 'dummykey'
+    $google_api_key = 'dummykey'
 }
 
 class passwords::pdns {
