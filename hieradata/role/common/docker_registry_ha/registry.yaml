@@ -1,0 +1,3 @@
+docker_registry_ha::hash: secret_hash
+profile::docker_registry_ha::registry::swift_password: swift_password
+
