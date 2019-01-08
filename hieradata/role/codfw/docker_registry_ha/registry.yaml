@@ -1,0 +1,1 @@
+profile::docker_registry_ha::registry::redis_password: codfwredispassword
