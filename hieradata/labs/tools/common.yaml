@@ -14,3 +14,4 @@ k8s_infrastructure_users:
     type: infrastructure-readonly
     token: faketoken
     id: 3
+profile::toolforge::toolviews::mysql_password: 'not a real password'
