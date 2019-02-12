@@ -84,3 +84,7 @@ k8s_infrastructure_users:
     id: 9
     token: dummydummydummy
     type: deploy
+  eventgate-analytics:
+    id: 10
+    token: dummydummydummy
+    type: deploy

@@ -9,3 +9,5 @@ profile::kubernetes::deployment_server::tokens:
     token: dummy
   blubberoid:
     token: dummy
+  eventgate-analytics:
+    token: dummytoken
