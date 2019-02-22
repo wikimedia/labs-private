@@ -11,3 +11,7 @@ profile::kubernetes::deployment_server::tokens:
     token: dummy
   eventgate-analytics:
     token: dummytoken
+  citoid:
+    token: dummytoken
+  cxserver:
+    token: dummytoken
