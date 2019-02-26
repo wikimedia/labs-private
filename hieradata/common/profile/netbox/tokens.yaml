@@ -1,0 +1,3 @@
+# These belong to the sre_bot user in Netbox
+profile::netbox::tokens::read_only: DUMMYREADONLYTOKEN
+profile::netbox::tokens::read_write: DUMMYREADWRITETOKEN
