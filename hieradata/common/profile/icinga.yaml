@@ -1,0 +1,3 @@
+profile::icinga::apache2_htpasswd_salt: dummy
+profile::icinga::apache2_auth_users:
+  user1: dummy
