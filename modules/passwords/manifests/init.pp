@@ -446,10 +446,12 @@ class passwords::openldap::corp {
 
 class passwords::openldap::labs {
     $sync_pass = 'BAAAAAAAAAAAAAAR'
+    $monitor_pass = 'openldaplabsmonitorpass'
 }
 
 class passwords::openldap::labtest {
     $sync_pass = 'FOOOOOOOOBAAAAAAAAAAR'
+    $monitor_pass = 'openldaplabtestmonitorpass'
 }
 
 class passwords::tessera {
