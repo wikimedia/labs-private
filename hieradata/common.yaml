@@ -96,3 +96,8 @@ k8s_infrastructure_users:
     id: 12
     token: dummydummydummy
     type: deploy
+
+hadoop_clusters_secrets:
+    analytics-test-hadoop:
+      ssl_keystore_password: 'batman'
+      ssl_trustore_password: 'batman'
