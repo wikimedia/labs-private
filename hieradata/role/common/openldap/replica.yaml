@@ -1,0 +1,2 @@
+profile::openldap::sync_pass: FOOOOOOOOBAAAAAAAAAARREPLICA
+profile::prometheus::openldap_exporter::monitor_pass: fakemonitorpassreplica
