@@ -1,0 +1,2 @@
+profile::openstack::codfw1dev::pdns::db_pass: 'ltn-pdns_db_pass'
+profile::openstack::codfw1dev::pdns::db_admin_pass: 'ltn-pdns_db_pass'
