@@ -460,6 +460,11 @@ class passwords::tessera {
 
 class passwords::cassandra {
     $restbase = 'notsecret'
+    $sessions = 'fake_session_password'
+    $application_username = 'sessions'
+    $application_password = 'fake_app_password'
+    $super_username = 'cassandra'
+    $super_password = 'fake_super_password'
 }
 
 class passwords::testreduce::mysql {
