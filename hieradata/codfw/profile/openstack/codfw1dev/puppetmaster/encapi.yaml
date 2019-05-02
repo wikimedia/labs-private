@@ -1,0 +1,1 @@
+profile::openstack::codfw1dev::puppetmaster::encapi::db_pass: 'dummypass'

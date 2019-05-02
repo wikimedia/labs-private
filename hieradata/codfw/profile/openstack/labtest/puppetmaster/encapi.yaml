@@ -1,1 +1,0 @@
-profile::openstack::labtest::puppetmaster::encapi::db_pass: 'dummypass'
