@@ -1,5 +1,0 @@
-profile::openstack::labtest::observer_password: 'Fs6Dq2RtG8KwmM2Z'
-profile::openstack::labtest::rabbit_monitor_pass: 'lp-labtest_rabbit_monitor_pass'
-profile::openstack::labtest::ldap_user_pass: 'lp-labtest_ldap_user_pass'
-profile::openstack::labtest::ldap_proxyuser_pass: 'lp-labtest_ldap_proxyuser_pass'
-profile::openstack::labtest::rabbit_cleanup_pass: 'lt-nasdfekasdjf'

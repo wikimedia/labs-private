@@ -1,4 +1,0 @@
-profile::openstack::labtestn::rabbit_monitor_pass: 'lp-labtestn_rabbit_monitor_pass'
-profile::openstack::labtestn::rabbit_cleanup_pass: 'rieiocsadlksadlsakdla'
-profile::openstack::labtestn::observer_password: 'Fs6Dq2RtG8KwmM2Z'
-profile::openstack::labtestn::ldap_user_pass: 'lp-labtestn_ldap_user_pass'

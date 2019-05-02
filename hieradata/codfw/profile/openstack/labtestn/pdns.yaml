@@ -1,2 +1,0 @@
-profile::openstack::labtestn::pdns::db_pass: 'ltn-pdns_db_pass'
-profile::openstack::labtestn::pdns::db_admin_pass: 'ltn-pdns_db_pass'

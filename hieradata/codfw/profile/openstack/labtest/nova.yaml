@@ -1,3 +1,0 @@
-profile::openstack::labtest::nova::db_pass: 'lt-nova-db_pass'
-profile::openstack::labtest::nova::fullstack_pass: 'lt-nova-fullstack_pass'
-profile::openstack::labtest::nova::rabbit_pass: 'lt-nova-rabbit_pass'
