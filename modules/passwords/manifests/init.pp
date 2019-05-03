@@ -291,6 +291,8 @@ class passwords::logstash {
 
 class passwords::librenms {
     $ircbot_pass = 'nickserv_fake_password'
+    $db_user = 'foo'
+    $db_pass = 'bar'
 }
 
 class passwords::bugzilla {
