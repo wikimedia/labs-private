@@ -1,7 +1,7 @@
 Despite the name, the contents of this repo is publicly visible!
 
-It mirrors the production 'private' repo (which really is private)
-and provides dummy passwords for puppet compatibility.
+It mirrors the production 'private' repo (which really is private) and
+provides dummy passwords for puppet compatibility.
 
 It consists of:
 
