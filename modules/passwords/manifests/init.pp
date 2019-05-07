@@ -154,6 +154,7 @@ class passwords::gerrit {
     $gerrit_email_key = 'AsL1PruNcpXuSAIjcCLqT'
     $gerrit_phab_cert = 'UnknownValue'
     $gerrit_phab_token = 'cli-unknownvalue'
+    $prometheus_bearer_token = 'prome123'
 }
 
 class passwords::civi {
