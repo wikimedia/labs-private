@@ -8,5 +8,5 @@ It consists of:
 - Stub files and classes needed to satisfy puppet dependencies
 - Dummy passwords for same
 - Certs that are self-signed and therefore certify nothing
-- A few keys and passwords that are 'real' in the sense that labs instances
-  need them to communicate with upstream services.
+- A few keys and passwords that are 'real' in the sense that labs
+  instances need them to communicate with upstream services.
