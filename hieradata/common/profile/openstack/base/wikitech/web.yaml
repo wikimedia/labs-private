@@ -1,1 +1,3 @@
 profile::openstack::base::wikitech::web::phabricator_api_token: 'token_placeholder'
+profile::openstack::base::wikitech::web::gerrit_api_user: 'fake_api_user'
+profile::openstack::base::wikitech::web::gerrit_api_password: 'fake_api_password'
