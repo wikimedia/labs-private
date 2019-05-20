@@ -1,0 +1,5 @@
+profile::openstack::eqiad1::rabbit_monitor_pass: 'dummy_rabbit_monitor_pass'
+profile::openstack::eqiad1::rabbit_cleanup_pass: 'dummy_rabbit_cleanup_pass'
+profile::openstack::eqiad1::rabbit_erlang_cookie: 'dummy_eqiad_erlang_cookie'
+profile::openstack::eqiad1::observer_password: 'dummy_observer_password'
+profile::openstack::eqiad1::ldap_user_pass: 'dummy_ldap_user_pass'
