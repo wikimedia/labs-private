@@ -1,1 +1,2 @@
 profile::librenms::laravel_app_key: notsecret
+profile::librenms::dbpassword: totallynotsecret
