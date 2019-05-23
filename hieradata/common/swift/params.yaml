@@ -5,7 +5,7 @@ swift::params::replication_keys:
     docker_registry:
         key:  'key1'
         key2: 'key2'
-    
+
 
 swift::params::account_keys:
     super_admin: dummy
@@ -17,6 +17,7 @@ swift::params::account_keys:
     docker_registry: dummy
     pagecompilation_zim: dummy
     phabricator_files: dummy
+    analytics_admin: dummy
 
 swift::params::account_temp_url_keys:
     mw_media: dummy
