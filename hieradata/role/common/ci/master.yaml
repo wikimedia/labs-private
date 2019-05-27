@@ -14,4 +14,8 @@ profile::kubernetes::deployment_server::tokens:
     token: dummytoken
   cxserver:
     token: dummytoken
+  eventgate-main:
+    token: dummytoken
+  sessionstore:
+    token: dummytoken
 profile::ci::kubernetes_config::token: dummytoken

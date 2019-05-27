@@ -87,12 +87,20 @@ k8s_infrastructure_users:
     id: 10
     token: dummydummydummy
     type: deploy
+  eventgate-main:
+    id: 13
+    token: dummydummydummy
+    type: deploy
   citoid:
     id: 11
     token: dummydummydummy
     type: deploy
   cxserver:
     id: 12
+    token: dummydummydummy
+    type: deploy
+  sessionstore:
+    id: 14
     token: dummydummydummy
     type: deploy
 
