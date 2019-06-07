@@ -18,6 +18,7 @@ swift::params::account_keys:
     pagecompilation_zim: dummy
     phabricator_files: dummy
     analytics_admin: dummy
+    netbox_attachments: dummy
 
 swift::params::account_temp_url_keys:
     mw_media: dummy
