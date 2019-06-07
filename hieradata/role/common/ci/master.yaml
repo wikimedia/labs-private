@@ -18,4 +18,6 @@ profile::kubernetes::deployment_server::tokens:
     token: dummytoken
   sessionstore:
     token: dummytoken
+  termbox:
+    token: dummytoken
 profile::ci::kubernetes_config::token: dummytoken

@@ -103,6 +103,10 @@ k8s_infrastructure_users:
     id: 14
     token: dummydummydummy
     type: deploy
+  sessionstore:
+    id: 15
+    token: dummydummydummy
+    type: deploy
 
 hadoop_clusters_secrets:
     analytics-test-hadoop:
