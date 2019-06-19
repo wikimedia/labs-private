@@ -21,3 +21,8 @@ profile::kubernetes::deployment_server::tokens:
   termbox:
     token: dummytoken
 profile::ci::kubernetes_config::token: dummytoken
+
+profile::kubernetes::deployment_server_secrets::services:
+  staging:
+    dummyservice:
+      loooldata: a
