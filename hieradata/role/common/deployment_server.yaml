@@ -23,6 +23,6 @@ profile::kubernetes::deployment_server::tokens:
     token: dummytoken
 
 profile::kubernetes::deployment_server_secrets::services:
-  staging:
-    dummyservice:
+  zotero:
+    staging:
       loooldata: a
