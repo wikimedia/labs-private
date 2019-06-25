@@ -1,0 +1,13 @@
+swift::params::account_keys:
+  analytics_admin: nosuchpass
+  dispersion: nosuchpass
+  docker_registry: nosuchpass
+  mw_media: nosuchpass
+  mw_thumbor: nosuchpass
+  mw_thumbor-private: nosuchpass
+  pagecompilation_zim: nosuchpass
+  phabricator_files: nosuchpass
+  search_backup: nosuchpass
+  super_admin: nosuchpass
+swift::params::account_temp_url_keys:
+  mw_media: nosuchpass

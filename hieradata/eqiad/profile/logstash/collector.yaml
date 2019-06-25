@@ -1,0 +1,1 @@
+profile::logstash::collector::input_kafka_ssl_truststore_password: nosuchpass

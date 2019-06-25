@@ -1,0 +1,12 @@
+profile::cassandra::single_instance::super_pass: nosuchpass
+profile::maps::apps::redis_pass: nosuchpass
+profile::maps::cassandra::kartotherian_pass: nosuchpass
+profile::maps::cassandra::tilerator_pass: nosuchpass
+profile::maps::cassandra::tileratorui_pass: nosuchpass
+profile::maps::osm_master::kartotherian_pass: nosuchpass
+profile::maps::osm_master::osmimporter_pass: nosuchpass
+profile::maps::osm_master::osmupdater_pass: nosuchpass
+profile::maps::osm_master::replication_pass: nosuchpass
+profile::maps::osm_master::tilerator_pass: nosuchpass
+profile::maps::osm_master::tileratorui_pass: nosuchpass
+profile::redis::master::password: nosuchpass

@@ -1,0 +1,3 @@
+profile::superset::admin_password: nosuchpass
+profile::superset::database_password: nosuchpass
+profile::superset::secret_key: nosuchpass

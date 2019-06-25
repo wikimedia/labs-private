@@ -1,0 +1,4 @@
+labsldapconfig:
+  proxypass: nosuchpass
+  script_user_pass: nosuchpass
+labspuppetbackend_mysql_password: nosuchpass

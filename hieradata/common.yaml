@@ -1,86 +1,48 @@
 designateconfig:
-  db_user: 'designate'
-  db_pass: 'dummypass1'
-  rabbit_user: 'nova'
-  rabbit_pass: 'dummypass2'
-  pdns_db_user: 'pdns'
-  pdns_db_pass: 'dummypass3'
-  db_admin_user: 'pdns_admin'
-  db_admin_pass: 'dummypass4'
-  wmflabsdotorg_admin: 'wmflabsdotorgadmin'
-  wmflabsdotorg_pass: 'dummypass5'
-
+  db_admin_pass: dummypass4
+  db_admin_user: pdns_admin
+  db_pass: dummypass1
+  db_user: designate
+  pdns_db_pass: dummypass3
+  pdns_db_user: pdns
+  rabbit_pass: dummypass2
+  rabbit_user: nova
+  wmflabsdotorg_admin: wmflabsdotorgadmin
+  wmflabsdotorg_pass: dummypass5
 glanceconfig:
-  db_name: 'glance'
-  db_user: 'glance'
-  db_pass: 'dummypass6'
-  rabbit_user: 'nova'
-  rabbit_pass: 'dummypass7'
-
-keystoneconfig:
-  db_pass: 'dummypass8'
-  ldap_user_pass: 'dummypass9'
-  ldap_proxyagent_pass: 'dummypass10'
-  token_driver_password: 'dummypass11'
-
-labsldapconfig:
-  proxypass: 'Eche0ieng8UaNoo'
-  script_user_pass: 'ueThe7moh7Hah'
-
-labspuppetbackend::mysql_password:  'dummypass'
-
-wmde_secrets:
-  facebook: pass
-  mm-wikidata-pass: pass
-  mm-wikidatatech-pass: pass
-  mm-user: pass
-
-# Icinga contact (fake) secrets
+  db_name: glance
+  db_pass: dummypass6
+  db_user: glance
+  rabbit_pass: dummypass7
+  rabbit_user: nova
+hadoop_clusters_secrets:
+  analytics-test-hadoop:
+    ssl_keystore_password: batman
+    ssl_trustore_password: batman
 icinga_contact_secrets:
-  bblack: # Brandon Black
-    email: 'test@example.com'
+  bblack:
+    address1: 5417543010@msg.fi.google.com
+    email: test@example.com
     pager: '15417543010'
-    address1: '5417543010@msg.fi.google.com'
-  dzahn: # Daniel Zahn
-    email: 'foobar@example.com'
+  dzahn:
+    address1: 5555551234@msg.fi.google.com
+    email: foobar@example.com
     pager: '15555551234'
-    address1: '5555551234@msg.fi.google.com'
-
 k8s_infrastructure_users:
-  client-infrastructure:
-    type: infrastructure-readwrite
-    token: dummydummy
-    id: 1
-  kubelet:
-    type: system:node
-    token: dummydummydummy
-    id: 2
-  prometheus:
-    type: infrastructure-readonly
-    token: dummydummydummy
-    id: 3
-  system:kube-proxy:
-    type: system:node
-    token: dummydummydummy
-    id: 4
-  mathoid:
-    id: 5
-    token: dummydummydummy
-    type: deploy
-  jenkins:
-    id: 6
-    token: dummydummydummy
-    type: deploy
-  zotero:
-    id: 7
-    token: dummydummydummy
-    type: deploy
-  graphoid:
-    id: 8
-    token: dummydummydummy
-    type: deploy
   blubberoid:
     id: 9
+    token: dummydummydummy
+    type: deploy
+  citoid:
+    id: 11
+    token: dummydummydummy
+    type: deploy
+  client-infrastructure:
+    id: 1
+    token: dummydummy
+    type: infrastructure-readwrite
+  cxserver:
+    id: 12
     token: dummydummydummy
     type: deploy
   eventgate-analytics:
@@ -91,24 +53,50 @@ k8s_infrastructure_users:
     id: 13
     token: dummydummydummy
     type: deploy
-  citoid:
-    id: 11
+  graphoid:
+    id: 8
     token: dummydummydummy
     type: deploy
-  cxserver:
-    id: 12
+  jenkins:
+    id: 6
     token: dummydummydummy
     type: deploy
-  sessionstore:
-    id: 14
+  kubelet:
+    id: 2
+    token: dummydummydummy
+    type: system:node
+  mathoid:
+    id: 5
     token: dummydummydummy
     type: deploy
+  prometheus:
+    id: 3
+    token: dummydummydummy
+    type: infrastructure-readonly
   sessionstore:
     id: 15
     token: dummydummydummy
     type: deploy
-
-hadoop_clusters_secrets:
-    analytics-test-hadoop:
-      ssl_keystore_password: 'batman'
-      ssl_trustore_password: 'batman'
+  system:kube-proxy:
+    id: 4
+    token: dummydummydummy
+    type: system:node
+  zotero:
+    id: 7
+    token: dummydummydummy
+    type: deploy
+keystoneconfig:
+  db_pass: dummypass8
+  ldap_proxyagent_pass: dummypass10
+  ldap_user_pass: dummypass9
+  token_driver_password: dummypass11
+labsldapconfig:
+  proxypass: Eche0ieng8UaNoo
+  script_user_pass: ueThe7moh7Hah
+labspuppetbackend::mysql_password: dummypass
+labspuppetbackend_mysql_password: nosuchpass
+wmde_secrets:
+  facebook: pass
+  mm-user: pass
+  mm-wikidata-pass: pass
+  mm-wikidatatech-pass: pass

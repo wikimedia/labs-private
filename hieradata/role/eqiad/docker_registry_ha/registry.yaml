@@ -1,1 +1,3 @@
 profile::docker_registry_ha::registry::redis_password: eqiadredispassword
+profile::docker_registry_ha::registry::swift_password: nosuchpass
+profile::docker_registry_ha::registry::swift_replication_key: nosuchpass

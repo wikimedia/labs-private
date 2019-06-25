@@ -1,0 +1,11 @@
+cassandra::super_password: nosuchpass
+maps::cassandra_kartotherian_pass: nosuchpass
+maps::cassandra_tilerator_pass: nosuchpass
+maps::cassandra_tileratorui_pass: nosuchpass
+maps::postgresql_kartotherian_pass: nosuchpass
+maps::postgresql_monitoring_pass: nosuchpass
+maps::postgresql_osmimporter_pass: nosuchpass
+maps::postgresql_osmupdater_pass: nosuchpass
+maps::postgresql_replication_pass: nosuchpass
+maps::postgresql_tilerator_pass: nosuchpass
+maps::postgresql_tileratorui_pass: nosuchpass

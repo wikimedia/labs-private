@@ -1,6 +1,8 @@
-profile::hive::metastore::database::db_root_username: 'root'
-profile::hive::metastore::database::db_root_password: 'batman'
-profile::hive::metastore::database::jdbc_password: 'hive-password'
-profile::oozie::server::database::db_root_username: 'root'
-profile::oozie::server::database::db_root_password: 'batman'
-profile::hive::metastore::database::jdbc_password: 'oozie-password'
+profile::hive::client::hive_metastore_jdbc_password: nosuchpass
+profile::hive::metastore::database::db_root_password: batman
+profile::hive::metastore::database::db_root_username: root
+profile::hive::metastore::database::jdbc_password: oozie-password
+profile::oozie::server::database::db_root_password: batman
+profile::oozie::server::database::db_root_username: root
+profile::oozie::server::database::jdbc_password: nosuchpass
+profile::oozie::server::jdbc_password: nosuchpass

@@ -1,2 +1,5 @@
+labsldapconfig:
+  proxypass: nosuchpass
+  script_user_pass: nosuchpass
 profile::openldap::sync_pass: FOOOOOOOOBAAAAAAAAAAR
 profile::prometheus::openldap_exporter::monitor_pass: openldaplabtestmonitorpass

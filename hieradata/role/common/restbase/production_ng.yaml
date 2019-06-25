@@ -1,0 +1,2 @@
+cassandra::super_password: nosuchpass
+profile::restbase::salt_key: nosuchpass

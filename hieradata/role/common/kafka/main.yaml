@@ -1,0 +1,2 @@
+profile::kafka::broker::ssl_password: nosuchpass
+profile::kafka::mirror::ssl_password: nosuchpass
