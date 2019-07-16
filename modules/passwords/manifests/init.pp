@@ -373,12 +373,6 @@ class passwords::wikitech {
     $wikitech_captcha_secret = 'captcha_secret'
 }
 
-class passwords::servermon {
-    $db_user = 'user'
-    $db_password = 'password'
-    $secret_key = 'secret_key'
-}
-
 class passwords::tor {
     $hashed_control_password = '16:DEB7ED95B2FFA54360D49BCB2AC9AD4AE49F00E541CEB490854F74128A'
 }
