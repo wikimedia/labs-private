@@ -73,6 +73,10 @@ k8s_infrastructure_users:
     id: 3
     token: dummydummydummy
     type: infrastructure-readonly
+  restrouter:
+    id: 16
+    token: dummydummydummy
+    type: deploy
   sessionstore:
     id: 15
     token: dummydummydummy
