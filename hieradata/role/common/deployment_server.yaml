@@ -28,6 +28,13 @@ profile::kubernetes::deployment_server_secrets::services:
   zotero:
     staging:
       loooldata: a
+  restrouter:
+    staging:
+      salt: dummy
+    eqiad:
+      salt: dummy
+    codfw:
+      salt: dummy
 
 profile::kubernetes::deployment_server_secrets::admin_services:
   calico:
