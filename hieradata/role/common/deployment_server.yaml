@@ -30,11 +30,14 @@ profile::kubernetes::deployment_server_secrets::services:
       loooldata: a
   restrouter:
     staging:
-      salt: dummy
+      main_app:
+        salt: dummy
     eqiad:
-      salt: dummy
+      main_app:
+        salt: dummy
     codfw:
-      salt: dummy
+      main_app:
+        salt: dummy
 
 profile::kubernetes::deployment_server_secrets::admin_services:
   calico:
