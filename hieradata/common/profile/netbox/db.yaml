@@ -1,0 +1,2 @@
+profile::netbox::db::password: FAKEFAKEFAKE
+profile::netbox::db::replication_password: FAKEFAKEFAKE
