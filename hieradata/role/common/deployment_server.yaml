@@ -23,6 +23,8 @@ profile::kubernetes::deployment_server::tokens:
     token: dummytoken
   restrouter:
     token: dummytoken
+  wikifeeds:
+    token: dummytoken
 
 profile::kubernetes::deployment_server_secrets::services:
   zotero:
