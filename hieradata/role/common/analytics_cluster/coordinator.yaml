@@ -6,3 +6,5 @@ profile::oozie::server::database::db_root_password: batman
 profile::oozie::server::database::db_root_username: root
 profile::oozie::server::database::jdbc_password: nosuchpass
 profile::oozie::server::jdbc_password: nosuchpass
+profile::analytics::backup::database::username: "backup_username"
+profile::analytics::backup::database::password: "pass_backup"
