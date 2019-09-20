@@ -539,3 +539,7 @@ class passwords::recommendationapi::mysql {
    $recommendationapi_pass = 'notsecret'
    $recommendationapiservice_pass = 'notsecret'
 }
+
+class passwords::netops {
+   $ripeatlas_cli_api_key = 'dummy'
+}
