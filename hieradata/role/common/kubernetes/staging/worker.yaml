@@ -1,2 +1,3 @@
 profile::kubernetes::node::kubeproxy_token: dummytoken1
 profile::kubernetes::node::kubelet_token: dummytoken2
+profile::rsyslog::kubernetes::token: dummytoken3
