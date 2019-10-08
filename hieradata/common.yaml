@@ -72,7 +72,11 @@ k8s_infrastructure_users:
   prometheus:
     id: 3
     token: dummydummydummy
-    type: infrastructure-readonly
+    type: "view,api-masters"
+  rsyslog:
+    id: 18
+    token: dummydummydummy
+    type: view
   restrouter:
     id: 16
     token: dummydummydummy
