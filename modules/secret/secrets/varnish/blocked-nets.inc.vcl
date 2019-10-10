@@ -2,3 +2,7 @@
 acl blocked_nets {
   "93.184.216.34"/32;
 }
+// Dummy bot_blocked_nets with the IP of placeholder.org
+acl bot_blocked_nets {
+  "192.241.194.113"/32;
+}
