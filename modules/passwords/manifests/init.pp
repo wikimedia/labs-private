@@ -203,6 +203,11 @@ class passwords::mongodb::eventlogging {
     $password = 'fakepassword'
 }
 
+class passwords::mysql::airflow::search {
+    $user = 'fakeuser',
+    $password = 'fakepassword'
+}
+
 class passwords::mysql::dump {
     $user = 'meh'
     $password = 'mah'
