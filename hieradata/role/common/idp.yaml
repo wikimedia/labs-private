@@ -1,0 +1,10 @@
+profile::idp::key_password: REMOVED
+profile::idp::keystore_password: REMOVED
+profile::idp::tgc_encryption_key: REMOVED
+profile::idp::tgc_signing_key: REMOVED
+profile::idp::webflow_encryption_key: REMOVED
+profile::idp::webflow_signing_key: REMOVED
+profile::idp::u2f_encryption_key: REMOVED
+profile::idp::u2f_signing_key: REMOVED
+profile::idp::totp_encryption_key: REMOVED
+profile::idp::totp_signing_key: REMOVED
