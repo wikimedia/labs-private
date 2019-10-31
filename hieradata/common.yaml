@@ -19,7 +19,7 @@ hadoop_clusters_secrets:
   analytics-test-hadoop:
     ssl_keystore_password: batman
     ssl_trustore_password: batman
-analytics-hadoop:
+  analytics-hadoop:
     ssl_keystore_password: batman
     ssl_trustore_password: batman
 icinga_contact_secrets:
