@@ -108,6 +108,14 @@ k8s_infrastructure_users:
     id: 7
     token: dummydummydummy
     type: deploy
+  echostore:
+    id: 18
+    token: dummydummydummy
+    type: deploy
+  eventgate-logging-external:
+    id: 19
+    token: dummydummydummy
+    type: deploy
 keystoneconfig:
   db_pass: dummypass8
   ldap_proxyagent_pass: dummypass10

@@ -25,6 +25,10 @@ profile::kubernetes::deployment_server::tokens:
     token: dummytoken
   wikifeeds:
     token: dummytoken
+  echostore:
+    token: dummytoken
+  event-logging-external:
+    token: dummytoken
 
 profile::kubernetes::deployment_server_secrets::services:
   zotero:
