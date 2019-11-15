@@ -1,2 +1,3 @@
 profile::openstack::eqiad1::pdns::db_pass: 'ltn-pdns_db_pass'
 profile::openstack::eqiad1::pdns::db_admin_pass: 'ltn-db_admin_pass'
+profile::openstack::eqiad1::pdns::api_key: 'ltn-pdns_api_key'
