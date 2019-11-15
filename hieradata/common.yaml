@@ -75,7 +75,7 @@ k8s_infrastructure_users:
   prometheus:
     id: 3
     token: dummydummydummy
-    type: '"view,api-masters"'
+    type: '"view,api-masters,system:heapster"'
   rsyslog:
     id: 18
     token: dummydummydummy
