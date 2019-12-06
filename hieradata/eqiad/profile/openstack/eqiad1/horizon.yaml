@@ -1,0 +1,1 @@
+profile::openstack::eqiad1::horizon::secret_key: this_is_a_secret_key_for_codfw1dev_that_needs_to_be_at_least_sixty_four_characters_long
