@@ -204,7 +204,7 @@ class passwords::mongodb::eventlogging {
 }
 
 class passwords::mysql::airflow::search {
-    $user = 'fakeuser',
+    $user = 'fakeuser'
     $password = 'fakepassword'
 }
 
