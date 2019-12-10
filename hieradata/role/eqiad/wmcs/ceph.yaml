@@ -1,0 +1,2 @@
+profile::ceph::admin_secret: 'NOTAREALKEYaaaaaaaaaaaaaaaaaaaaaaaaaaa=='
+profile::ceph::mon::secret: 'NOTAREALKEYbbbbbbbbbbbbbbbbbbbbbbbbbbb=='
