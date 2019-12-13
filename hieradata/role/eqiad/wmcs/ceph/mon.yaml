@@ -1,2 +1,2 @@
-profile::ceph::admin_secret: 'NOTAREALKEYaaaaaaaaaaaaaaaaaaaaaaaaaaa=='
-profile::ceph::mon::secret: 'NOTAREALKEYbbbbbbbbbbbbbbbbbbbbbbbbbbb=='
+profile::ceph::admin_keydata: 'NOTAREALKEYaaaaaaaaaaaaaaaaaaaaaaaaaaa=='
+profile::ceph::mon::keydata: 'NOTAREALKEYbbbbbbbbbbbbbbbbbbbbbbbbbbb=='
