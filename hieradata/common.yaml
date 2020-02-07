@@ -22,6 +22,13 @@ hadoop_clusters_secrets:
   analytics-hadoop:
     ssl_keystore_password: batman
     ssl_trustore_password: batman
+presto_clusters_secrets:
+  analytics-presto:
+    ssl_truststore_password: 'batman'
+    ssl_keystore_password: 'batman'
+  analytics-test-presto:
+    ssl_truststore_password: 'batman'
+    ssl_keystore_password: 'batman'
 icinga_contact_secrets:
   bblack:
     address1: 5417543010@msg.fi.google.com
