@@ -150,7 +150,6 @@ class passwords::etherpad_lite {
 
 class passwords::gerrit {
     $gerrit_pass = ''
-    $gerrit_db_pass = 'l5uCkoYX+zYtH'
     $gerrit_email_key = 'AsL1PruNcpXuSAIjcCLqT'
     $gerrit_phab_cert = 'UnknownValue'
     $gerrit_phab_token = 'cli-unknownvalue'
