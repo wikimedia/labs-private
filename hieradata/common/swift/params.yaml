@@ -19,6 +19,7 @@ swift::params::account_keys:
     phabricator_files: dummy
     analytics_admin: dummy
     netbox_attachments: dummy
+    performance_arclamp: dummy
 
 swift::params::account_temp_url_keys:
     mw_media: dummy
