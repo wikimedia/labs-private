@@ -127,6 +127,10 @@ k8s_infrastructure_users:
     id: 20
     token: dummydummydummy
     type: deploy
+  eventgate-analytics-external:
+    id: 21
+    token: dummydummydummy
+    type: deploy
 keystoneconfig:
   db_pass: dummypass8
   ldap_proxyagent_pass: dummypass10
