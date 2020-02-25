@@ -50,6 +50,19 @@ profile::kubernetes::deployment_server_secrets::services:
     codfw:
       main_app:
         salt: dummy
+  changeprop:
+    eqiad:
+      main_app:
+        redis:
+          pass: dummy
+    codfw:
+      main_app:
+        redis:
+          pass: dummy
+    staging:
+      main_app:
+        redis:
+          pass: dummy
 
 profile::kubernetes::deployment_server_secrets::admin_services:
   calico:
