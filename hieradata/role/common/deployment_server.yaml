@@ -33,6 +33,8 @@ profile::kubernetes::deployment_server::tokens:
     token: dummytoken
   eventgate-analytics-external:
     token: dummytoken
+  changeprop:
+    token: dummytoken
 
 profile::kubernetes::deployment_server_secrets::services:
   zotero:
