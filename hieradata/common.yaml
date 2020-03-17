@@ -139,6 +139,18 @@ k8s_infrastructure_users:
     id: 23
     token: dummydummydummy
     type: deploy
+  proton:
+    id: 24
+    token: dummydummydummy
+    type: deploy
+  mobileapps:
+    id: 25
+    token: dummydummydummy
+    type: deploy
+  recommendation-api:
+    id: 26
+    token: dummydummydummy
+    type: deploy
 keystoneconfig:
   db_pass: dummypass8
   ldap_proxyagent_pass: dummypass10
