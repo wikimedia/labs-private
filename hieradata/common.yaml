@@ -150,3 +150,20 @@ wmde_secrets:
   mm-user: pass
   mm-wikidata-pass: pass
   mm-wikidatatech-pass: pass
+abuse_networks:
+  blocked_nets:
+    context:
+      - ferm
+      - varnish
+    networks:
+      - '93.184.216.34/32'
+  bot_blocked_nets:
+    context:
+      - varnish
+    networks:
+      - '192.241.194.113/32'
+  public_cloud_nets:
+    context:
+      - varnish
+    networks:
+      - '18.208.0.0/13'
