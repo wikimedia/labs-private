@@ -165,7 +165,9 @@ abuse_networks:
     networks:
       - '192.241.194.113/32'
   public_cloud_nets:
-    comment: 'Dummy aws_nets with a single public cloud network'
+    comment: |-
+      Dummy aws_nets with a single public cloud network
+      test multi line comment
     context:
       - varnish
     networks:
