@@ -1,0 +1,8 @@
+profile::swift::accounts_keys:
+    super_admin: nosuchpass1
+    mw_media: nosuchpass2
+    dispersion: nosuchpass3
+    search_backup: nosuchpass4
+    thumbor: nosuchpass5
+    pagecompilation_zim: nosuchpass6
+

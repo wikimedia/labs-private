@@ -1,4 +1,5 @@
 ocg::redis_password: 'emptypass'
+# Slated to be removed in favor of profile::swift::accounts_keys
 swift::params::account_keys:
     super_admin: nosuchpass1
     mw_media: nosuchpass2
