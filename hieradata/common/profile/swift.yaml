@@ -1,8 +1,13 @@
 profile::swift::accounts_keys:
-    super_admin: nosuchpass1
-    mw_media: nosuchpass2
-    dispersion: nosuchpass3
-    search_backup: nosuchpass4
-    thumbor: nosuchpass5
-    pagecompilation_zim: nosuchpass6
-
+    super_admin: dummy
+    mw_media: dummy
+    mw_thumbor: dummy
+    mw_thumbor-private: dummy
+    dispersion: dummy
+    search_backup: dummy
+    docker_registry: dummy
+    pagecompilation_zim: dummy
+    phabricator_files: dummy
+    analytics_admin: dummy
+    netbox_attachments: dummy
+    performance_arclamp: dummy
