@@ -11,3 +11,11 @@ profile::swift::accounts_keys:
     analytics_admin: dummy
     netbox_attachments: dummy
     performance_arclamp: dummy
+
+profile::swift::replication_keys:
+    mw_media:
+        key:  'key1'
+        key2: 'key2'
+    docker_registry:
+        key:  'key1'
+        key2: 'key2'
