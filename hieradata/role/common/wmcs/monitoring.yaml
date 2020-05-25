@@ -1,2 +1,3 @@
 profile::grafana::secret_key: aaaaab
 profile::grafana::admin_password: aaaab
+profile::grafana::ldap::bind_password: aaaa
