@@ -7,3 +7,5 @@ profile::toolforge::elasticsearch::haproxy::elastic_users:
     password: '$6$EWl8RfqmqFNhzfTx$e58mQOt0Z3HRIXrJcyXUZJpjmCq/3wRfg.' # "not a real password"
 
 profile::toolforge::elasticsearch::keepalived::password: NotARealPassword
+
+profile::wmcs::kubeadm::encryption_key: NotARealEncryptionKey
