@@ -547,3 +547,7 @@ class passwords::recommendationapi::mysql {
 class passwords::netops {
    $ripeatlas_cli_api_key = 'dummy'
 }
+
+class passwords::dnsdist::wikidough {
+   $console_key = 'snake oil'
+}
