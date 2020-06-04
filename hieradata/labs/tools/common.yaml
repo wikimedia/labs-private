@@ -1,19 +1,6 @@
 docker::username: docker
 docker::password_hash: '$apr1$st5G0d8l$IcJeBIljkbSRhjrMIiH02/' # "not a real password"
 docker::password: 'not a real password'
-k8s_infrastructure_users:
-  client-infrastructure:
-    type: infrastructure-readwrite
-    token: faketoken
-    id: 1
-  proxy-infrastructure:
-    type: infrastructure-readonly
-    token: faketoken
-    id: 2
-  prometheus:
-    type: infrastructure-readonly
-    token: faketoken
-    id: 3
 profile::toolforge::toolviews::mysql_password: 'not a real password'
 profile::toolforge::elasticsearch::haproxy::elastic_users:
   - name: 'fakeuser'
