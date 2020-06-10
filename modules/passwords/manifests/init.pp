@@ -273,12 +273,16 @@ class passwords::mysql::iegreview {
     $app_password = 'swordfish'
 }
 
-
 class passwords::mysql::wikimania_scholarships {
     $user = 'scholarships'
     $password = '4i0Xd5mFBf3GshAVPy9RBwdG'
     $app_user = 'scholarships_app'
     $app_password = 'rudOmOtJeytErIdmyivvajDu'
+}
+
+class passwords::mysql::xhgui {
+    $user = 'xhgui'
+    $password = 'Thiz8Ev8Xetho8mu'
 }
 
 class passwords::redis {
