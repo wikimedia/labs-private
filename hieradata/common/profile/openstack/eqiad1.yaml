@@ -2,4 +2,3 @@ profile::openstack::eqiad1::rabbit_monitor_pass: lp-rabbit_monitor_pass
 profile::openstack::eqiad1::rabbit_cleanup_pass: lp-rabbit_cleanup_pass
 profile::openstack::eqiad1::observer_password: Fs6Dq2RtG8KwmM2Z
 profile::openstack::eqiad1::ldap_user_pass: lp-ldap_user_pass
-profile::openstack::eqiad1::galera::monitoring::test_password: fake_galera_pswd
