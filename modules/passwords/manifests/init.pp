@@ -554,4 +554,6 @@ class passwords::netops {
 
 class passwords::dnsdist::wikidough {
    $console_key = 'snake oil'
+   $webserver_password = 'snake oil'
+   $api_key = 'snake oil'
 }
