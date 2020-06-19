@@ -1,0 +1,3 @@
+profile::wikidough::dnsdist::webserver:
+  password: 'snake oil'
+  api_key: 'snake oil'

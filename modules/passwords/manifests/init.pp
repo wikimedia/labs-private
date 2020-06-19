@@ -552,8 +552,6 @@ class passwords::netops {
    $ripeatlas_cli_api_key = 'dummy'
 }
 
-class passwords::dnsdist::wikidough {
+class passwords::wikidough::dnsdist {
    $console_key = 'snake oil'
-   $webserver_password = 'snake oil'
-   $api_key = 'snake oil'
 }
