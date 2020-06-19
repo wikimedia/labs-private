@@ -1,0 +1,3 @@
+profile::icinga::external_monitoring::htpasswd_salt: foo
+profile::icinga::external_monitoring::auth_users:
+  user: password
