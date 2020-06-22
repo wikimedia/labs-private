@@ -1,1 +1,2 @@
 profile::openstack::eqiad1::galera::test_password: fake_galera_pswd
+profile::openstack::eqiad1::galera::backup_password: fake_galera_backup_pswd

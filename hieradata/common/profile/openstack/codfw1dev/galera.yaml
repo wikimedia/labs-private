@@ -1,1 +1,2 @@
 profile::openstack::codfw1dev::galera::test_password: fake_galera_pswd
+profile::openstack::codfw1dev::galera::backup_password: fake_galera_backup_pswd
