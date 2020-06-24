@@ -1,3 +1,4 @@
 profile::thanos::swift::accounts_keys:
   thanos_prod: 'foo'
   dispersion: 'bar'
+  chartmuseum_prod: 'baz'
