@@ -1,4 +1,0 @@
-profile::wikidough::console_key: 'snake oil'
-profile::wikidough::webserver:
-  password: 'snake oil'
-  api_key: 'snake oil'

@@ -1,1 +1,0 @@
-profile::prometheus::ops::wikidogh_api_key: "%{alias('profile::wikidough::webserver.api_key')}"
