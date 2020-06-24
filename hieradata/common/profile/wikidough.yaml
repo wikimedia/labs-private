@@ -1,0 +1,3 @@
+profile::wikidough::dnsdist_webserver:
+  password: change me
+  api_key: change me
