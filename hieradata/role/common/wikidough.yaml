@@ -1,4 +1,4 @@
-# make sure api_key is the same in ::passwords
+# make sure password is the same in ::passwords
 profile::wikidough::dnsdist::webserver:
   password: 'snake oil'
   api_key: 'snake oil'

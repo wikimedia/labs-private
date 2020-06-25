@@ -552,8 +552,8 @@ class passwords::netops {
    $ripeatlas_cli_api_key = 'dummy'
 }
 
-# make sure api_key is the same in role/common/wikidough.yaml
+# make sure password is the same in role/common/wikidough.yaml
 class passwords::wikidough::dnsdist {
    $console_key = 'snake oil'
-   $api_key = 'snake oil'
+   $password = 'snake oil'
 }
