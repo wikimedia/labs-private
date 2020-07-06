@@ -5,3 +5,4 @@ profile::logstash::collector::input_kafka_ssl_truststore_passwords:
   jumbo-eqiad: 'nosuchpass'
   main-eqiad: 'nosuchpass'
   main-codfw: 'nosuchpass'
+profile::logstash::collector::input_kafka_ssl_truststore_password: nosuchpass
