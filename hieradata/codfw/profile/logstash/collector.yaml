@@ -1,1 +1,7 @@
-profile::logstash::collector::input_kafka_ssl_truststore_password: nosuchpass
+# dummy logstash kafka input truststore password to pacify PCC
+profile::logstash::collector::input_kafka_ssl_truststore_passwords:
+  logging-eqiad: 'nosuchpass'
+  logging-codfw: 'nosuchpass'
+  jumbo-eqiad: 'nosuchpass'
+  main-eqiad: 'nosuchpass'
+  main-codfw: 'nosuchpass'

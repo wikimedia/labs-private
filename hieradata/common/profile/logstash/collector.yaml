@@ -1,2 +1,7 @@
 # dummy logstash kafka input truststore password to pacify PCC
-profile::logstash::collector::input_kafka_ssl_truststore_password: 'hunter2'
+profile::logstash::collector::input_kafka_ssl_truststore_passwords:
+  logging-eqiad: 'hunter2'
+  logging-codfw: 'hunter2'
+  jumbo-eqiad: 'hunter2'
+  main-eqiad: 'hunter2'
+  main-codfw: 'hunter2'
