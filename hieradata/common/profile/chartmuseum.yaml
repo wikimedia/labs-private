@@ -1,0 +1,8 @@
+profile::chartmuseum::basic_auth:
+  username: SnakeOil
+  password: SnakeOil
+profile::chartmuseum::swift_backend:
+  auth_url: https://notarealhos.notarealdomain.wmnet/auth/v1.0
+  container: labsCharts
+  user: SnakeOil
+  key: SnakeOil
