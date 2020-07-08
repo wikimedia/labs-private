@@ -1,2 +1,3 @@
 profile::openstack::codfw1dev::galera::test_password: fake_galera_pswd
 profile::openstack::codfw1dev::galera::backup_password: fake_galera_backup_pswd
+profile::openstack::codfw1dev::galera::prometheus_db_pass: dummy_prometheus_ldap_password_codfw1dev
