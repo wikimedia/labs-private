@@ -1,6 +1,6 @@
 profile::openstack::codfw1dev::rabbit_monitor_pass: 'lp-labtestn_rabbit_monitor_pass'
 profile::openstack::codfw1dev::rabbit_cleanup_pass: 'rieiocsadlksadlsakdla'
 profile::openstack::codfw1dev::rabbit_erlang_cookie: 'codfw1devcookie'
-profile::openstack::codfw1dev::observer_password: 'Fs6Dq2RtG8KwmM2Z'
+profile::openstack::codfw1dev::observer_password: 'lt-RiBeyokCO81bVvcX'
 profile::openstack::codfw1dev::ldap_user_pass: 'lp-labtestn_ldap_user_pass'
 profile::openstack::codfw1dev::galera::prometheus_db_pass: 'dummy_prometheus_ldap_password_codfw1dev'
