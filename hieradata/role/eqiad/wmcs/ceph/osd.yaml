@@ -1,2 +1,3 @@
 profile::ceph::admin_keydata: 'NOTAREALKEYaaaaaaaaaaaaaaaaaaaaaaaaaaa=='
 profile::ceph::mon::keydata: 'NOTAREALKEYbbbbbbbbbbbbbbbbbbbbbbbbbbb=='
+profile::ceph::osd::bootstrap_keydata: 'NOTAREALKEYaaaaaaaaaaaaaaaaaaaaaaaaaaa=='
