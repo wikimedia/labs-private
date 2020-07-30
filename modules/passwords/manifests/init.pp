@@ -27,6 +27,8 @@ class passwords::misc::scripts {
     $cachemgr_pass          = 'IamNotSet'
     $mysql_root_pass        = 'IamNotSet'
     $mysql_labsdb_root_pass = 'IamNotSet'
+    $mysql_repl_user        = 'repl'
+    $mysql_repl_pass        = 'ReplIamNotSet'
     $nagios_sql_pass        = 'IamNotSet'
     $webshop_pass           = 'IamNotSet'
     $wikiadmin_pass         = 'fdgaggrehresjarejas'
