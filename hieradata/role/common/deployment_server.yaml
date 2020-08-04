@@ -45,6 +45,9 @@ profile::kubernetes::deployment_server::tokens:
     token: dummytoken
   push-notifications:
     token: dummytoken
+  api-gateway:
+    token: dummytoken
+
 profile::kubernetes::deployment_server_secrets::services:
   zotero:
     staging:
@@ -212,6 +215,22 @@ profile::kubernetes::deployment_server_secrets::services:
           "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
           "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/1111111111111111111111111111111111111111111111111111111111111111111111111"
           }
+  api-gateway:
+    eqiad:
+      main_app:
+        jwks:
+          kid: dummy
+          key: dummy
+    codfw:
+      main_app:
+        jwks:
+          kid: dummy
+          key: dummy
+    staging:
+      main_app:
+        jwks:
+          kid: dummy
+          key: dummy
 
 profile::kubernetes::deployment_server_secrets::admin_services:
   calico:

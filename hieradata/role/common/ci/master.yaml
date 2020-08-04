@@ -44,6 +44,8 @@ profile::kubernetes::deployment_server::tokens:
     token: dummytoken
   push-notifications:
     token: dummytoken
+  api-gateway:
+    token: dummytoken
 profile::ci::kubernetes_config::token: dummytoken
 
 profile::kubernetes::deployment_server_secrets::services:

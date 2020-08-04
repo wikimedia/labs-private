@@ -155,6 +155,11 @@ k8s_infrastructure_users:
     id: 27
     token: dummydummydummy
     type: deploy
+  api-gateway:
+    id: 28
+    token: dummydummydummy
+    type: deploy
+
 keystoneconfig:
   db_pass: dummypass8
   ldap_proxyagent_pass: dummypass10
