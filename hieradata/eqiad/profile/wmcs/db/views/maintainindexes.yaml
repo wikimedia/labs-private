@@ -1,0 +1,2 @@
+profile::wmcs::db::wikireplicas::views::maintainindexes::user: 'notsecret'
+profile::wmcs::db::wikireplicas::views::maintainindexes::db_pass: 'notsecret'
