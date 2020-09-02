@@ -1,0 +1,4 @@
+profile::pki::server::auth_keys:
+  default:
+    key: abcdef0123456789
+    type: standard
