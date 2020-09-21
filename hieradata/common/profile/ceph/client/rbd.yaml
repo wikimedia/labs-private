@@ -1,1 +1,2 @@
 profile::ceph::client::rbd::keydata: 'NOTAREALKEYaaaaaaaaaaaaaaaaaaaaaaaaaaa=='
+profile::ceph::client::rbd::glance_client_keydata: 'SNAKEOILaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa=='

@@ -1,1 +1,1 @@
-profile::ceph::client::rbd::glance_client_keydata: 'SNAKEOIL'
+profile::ceph::client::rbd::glance_client_keydata: 'SNAKEOILaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa=='
