@@ -1,0 +1,2 @@
+profile::openstack::codfw1dev::barbican::db_pass: 'lp-barbican_db_pass'
+profile::openstack::codfw1dev::barbican::kek: 'SNAKEOIL00000000000000000000000000000000000='
