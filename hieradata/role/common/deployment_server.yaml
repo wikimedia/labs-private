@@ -48,10 +48,19 @@ profile::kubernetes::deployment_server::tokens:
   api-gateway:
     token: dummytoken
 
+profile::kubernetes::deployment_server_secrets::defaults:
+  staging:
+    defaultsecret: muchdefault
+  codfw:
+    main_app:
+      redis:
+        defaultsecret: muchdefault
+
 profile::kubernetes::deployment_server_secrets::services:
   zotero:
     staging:
       loooldata: a
+      defaultsecret: notdefault
   restrouter:
     staging:
       main_app:
