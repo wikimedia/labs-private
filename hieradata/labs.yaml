@@ -8,3 +8,9 @@ novaconfig:
 profile::openstack::eqiad1::puppetmaster::encapi::db_pass: 'dummy'
 puppetdb::password::replication: 'dummy'
 puppetdb::password::rw: 'dummy'
+profile::logstash::collector::input_kafka_ssl_truststore_passwords:
+  logging-eqiad: 'hunter2'
+  logging-codfw: 'hunter2'
+  jumbo-eqiad: 'hunter2'
+  main-eqiad: 'hunter2'
+  main-codfw: 'hunter2'
