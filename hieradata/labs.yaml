@@ -17,3 +17,4 @@ profile::logstash::collector::input_kafka_ssl_truststore_passwords:
 profile::wmcs::services::postgres::replication_pass: 'dummy'
 profile::wmcs::services::postgres::osm_password: 'dummy'
 profile::wmcs::services::postgres::kolossos_password: 'dummy'
+profile::wmcs::services::postgres::aude_password: 'dummy'
