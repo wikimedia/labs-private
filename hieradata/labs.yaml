@@ -16,3 +16,4 @@ profile::logstash::collector::input_kafka_ssl_truststore_passwords:
   main-codfw: 'hunter2'
 profile::wmcs::services::postgres::replication_pass: 'dummy'
 profile::wmcs::services::postgres::osm_password: 'dummy'
+profile::wmcs::services::postgres::kolossos_password: 'dummy'
