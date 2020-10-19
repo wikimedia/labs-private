@@ -21,8 +21,6 @@ profile::kubernetes::deployment_server::tokens:
     token: dummytoken
   termbox:
     token: dummytoken
-  restrouter:
-    token: dummytoken
   wikifeeds:
     token: dummytoken
   echostore:
@@ -62,10 +60,6 @@ profile::kubernetes::deployment_server_secrets::services:
       loooldata: a
       test: data
       defaultsecret: notdefault
-  restrouter:
-    staging:
-      main_app:
-        salt: dummy
     eqiad:
       main_app:
         salt: dummy
