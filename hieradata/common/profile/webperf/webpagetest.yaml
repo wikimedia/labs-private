@@ -1,0 +1,15 @@
+# server_key is used by the web UI to talk to the server.
+server_key: fakefakefakefake
+
+# server_secret appears to be used to build authenticated links in the web UI.
+server_secret: fakefakefakefake
+
+# location_key is used by agents to talk to the server.
+location_key: fakefakefakefake
+
+# api_key is for other programmatic access.
+api_key: fakefakefakefake
+
+# aws_key and aws_secret are used for archiving results to Amazon S3.
+aws_key: fakefakefakefake
+aws_secret: fakefakefakefake
