@@ -1,1 +1,2 @@
 profile::orchestrator::server::db_backend_password: 'IamNotSet (db backend)'
+profile::orchestrator::server::db_topology_password: 'IamNotSet (db topology)'
