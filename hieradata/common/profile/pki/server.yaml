@@ -1,1 +1,1 @@
-profile::pki::server::db_host: changeme
+profile::pki::server::db_pass: changeme
