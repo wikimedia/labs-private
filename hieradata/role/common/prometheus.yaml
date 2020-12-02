@@ -1,2 +1,1 @@
 prometheus::server::mysqld_exporter::mysql::password: 'notsecret'
-profile::prometheus::kubernetes::client_token: dummydummydummy

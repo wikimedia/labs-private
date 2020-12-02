@@ -1,0 +1,5 @@
+profile::prometheus::kubernetes::cluster_tokens:
+  k8s:
+    client_token: eqiaddummy
+  k8s-staging:
+    client_token: eqiaddummystaging
