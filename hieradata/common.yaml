@@ -164,6 +164,10 @@ k8s_infrastructure_users:
     id: 31
     token: dummydummydummy
     type: deploy
+  calico-cni:
+    id: 32
+    token: dummydummydummy
+    type: calico
 
 keystoneconfig:
   db_pass: dummypass8
