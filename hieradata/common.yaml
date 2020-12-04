@@ -168,6 +168,10 @@ k8s_infrastructure_users:
     id: 32
     token: dummydummydummy
     type: calico
+  calicoctl:
+    id: 33
+    token: dummydummydummy
+    type: calico
 
 keystoneconfig:
   db_pass: dummypass8
