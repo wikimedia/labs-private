@@ -39,54 +39,58 @@ icinga_contact_secrets:
     email: foobar@example.com
     pager: '15555551234'
 k8s_infrastructure_users:
-  blubberoid:
-    id: 9
-    token: dummydummydummy
-    type: deploy
-  citoid:
-    id: 11
-    token: dummydummydummy
-    type: deploy
   client-infrastructure:
     id: 1
     token: dummydummy
     type: infrastructure-readwrite
-  cxserver:
-    id: 12
-    token: dummydummydummy
-    type: deploy
-  eventgate-analytics:
-    id: 10
-    token: dummydummydummy
-    type: deploy
-  eventgate-main:
-    id: 13
-    token: dummydummydummy
-    type: deploy
-  graphoid:
-    id: 8
-    token: dummydummydummy
-    type: deploy
-  jenkins:
-    id: 6
-    token: dummydummydummy
-    type: deploy
   kubelet:
     id: 2
+    token: dummydummydummy
+    type: system:node
+  prometheus:
+    id: 3
+    token: dummydummydummy
+    type: '"view,api-masters"'
+  system:kube-proxy:
+    id: 4
     token: dummydummydummy
     type: system:node
   mathoid:
     id: 5
     token: dummydummydummy
     type: deploy
-  prometheus:
-    id: 3
+  jenkins:
+    id: 6
     token: dummydummydummy
-    type: '"view,api-masters"'
-  rsyslog:
-    id: 18
+    type: deploy
+  zotero:
+    id: 7
     token: dummydummydummy
-    type: view
+    type: deploy
+  graphoid:
+    id: 8
+    token: dummydummydummy
+    type: deploy
+  blubberoid:
+    id: 9
+    token: dummydummydummy
+    type: deploy
+  eventgate-analytics:
+    id: 10
+    token: dummydummydummy
+    type: deploy
+  citoid:
+    id: 11
+    token: dummydummydummy
+    type: deploy
+  cxserver:
+    id: 12
+    token: dummydummydummy
+    type: deploy
+  eventgate-main:
+    id: 13
+    token: dummydummydummy
+    type: deploy
   sessionstore:
     id: 14
     token: dummydummydummy
@@ -95,18 +99,15 @@ k8s_infrastructure_users:
     id: 15
     token: dummydummydummy
     type: deploy
+  # 16 used to be restrouter, don't reuse
   wikifeeds:
     id: 17
     token: dummydummydummy
     type: deploy
-  system:kube-proxy:
-    id: 4
+  rsyslog:
+    id: 18
     token: dummydummydummy
-    type: system:node
-  zotero:
-    id: 7
-    token: dummydummydummy
-    type: deploy
+    type: view
   echostore:
     id: 18
     token: dummydummydummy
