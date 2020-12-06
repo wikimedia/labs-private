@@ -1,0 +1,1 @@
+profile::openstack::codfw1dev::cinder::db_pass: 'lp-cinder_db_pass'
