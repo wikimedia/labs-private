@@ -1,0 +1,1 @@
+profile::ceph::client::rbd::cinder_client_keydata: 'fake-keydata-fake-fake-fake'
