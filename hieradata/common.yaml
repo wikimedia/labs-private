@@ -42,11 +42,11 @@ k8s_infrastructure_users:
   client-infrastructure:
     id: 1
     token: dummydummy
-    type: system:master
+    type: system:masters
   kubelet:
     id: 2
     token: dummydummydummy
-    type: system:node
+    type: system:nodes
   prometheus:
     id: 3
     token: dummydummydummy
