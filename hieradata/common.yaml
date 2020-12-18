@@ -172,6 +172,10 @@ k8s_infrastructure_users:
     id: 33
     token: dummydummydummy
     type: calico
+  system:kube-controller-manager:
+    id: 34
+    token: dummydummydummy
+    type: system:kube-controller-manager
 
 keystoneconfig:
   db_pass: dummypass8
