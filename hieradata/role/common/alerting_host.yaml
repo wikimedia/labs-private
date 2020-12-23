@@ -1,1 +1,7 @@
 profile::alertmanager::victorops_api_key: 'dummy'
+
+profile::klaxon::klaxon_config:
+  vo_api_id: 'dummy_vo_api_id'
+  vo_api_key: 'dummy_vo_api_key'
+  vo_create_incident_url: 'https://victorops.test/notreal'
+  secret_key: 'not_secret'
