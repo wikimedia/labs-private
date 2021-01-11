@@ -48,7 +48,7 @@ profile::kubernetes::deployment_server::tokens:
     token: dummytoken
   linkrecommendation:
     token: dummytoken
-  sockpuppet-api:
+  similar-users:
     token: dummytoken
 profile::ci::kubernetes_config::token: dummytoken
 

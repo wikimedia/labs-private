@@ -160,7 +160,7 @@ k8s_infrastructure_users:
     id: 30
     token: dummydummydummy
     type: deploy
-  sockpuppet-api:
+  similar-users:
     id: 31
     token: dummydummydummy
     type: deploy
