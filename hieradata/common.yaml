@@ -218,6 +218,7 @@ abuse_networks:
     comment: |-
       'This is a list of users who have been known to abuse phabricator'
     context:
+      - varnish
       - phabricator
     networks:
       - 192.0.2.42/32
