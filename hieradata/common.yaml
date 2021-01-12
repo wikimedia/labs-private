@@ -200,6 +200,12 @@ abuse_networks:
       - varnish
     networks:
       - '93.184.216.34/32'
+  text_abuse_nets:
+    comment: 'Abuse block list specific to text-frontend'
+    context:
+      - varnish
+    networks:
+      - '192.0.2.0/24'
   bot_blocked_nets:
     comment: 'Dummy bot_blocked_nets with the IP of placeholder.org'
     context:
