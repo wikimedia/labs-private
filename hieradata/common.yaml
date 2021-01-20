@@ -216,6 +216,12 @@ abuse_networks:
       - varnish
     networks:
       - '192.241.194.113/32'
+  bot_posts_blocked_nets:
+    comment: 'Dummy bot_blocked_nets with the IP of placeholder.org'
+    context:
+      - varnish
+    networks:
+      - '192.241.194.113/32'
   public_cloud_nets:
     comment: |-
       Dummy aws_nets with a single public cloud network
