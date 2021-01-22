@@ -22,6 +22,8 @@ hadoop_clusters_secrets:
   analytics-hadoop:
     ssl_keystore_password: batman
     ssl_trustore_password: batman
+  analytics-backup-hadoop:
+    ssl_keystore_password: batman
 presto_clusters_secrets:
   analytics-presto:
     ssl_truststore_password: 'batman'
