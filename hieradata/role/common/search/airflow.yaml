@@ -1,0 +1,2 @@
+profile::analytics::airflow::db_user: 'fakeuser'
+profile::analytics::airflow::db_password: 'fakepassword'
