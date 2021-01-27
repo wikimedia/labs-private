@@ -1,4 +1,5 @@
 profile::alertmanager::victorops_api_key: 'dummy'
+profile::alertmanager::phab::token: 'dummy'
 
 profile::klaxon::klaxon_config:
   vo_api_id: 'dummy_vo_api_id'
