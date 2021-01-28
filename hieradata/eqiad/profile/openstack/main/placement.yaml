@@ -1,0 +1,1 @@
+profile::openstack::main::placement::db_pass: 'lp-placement_db_pass'

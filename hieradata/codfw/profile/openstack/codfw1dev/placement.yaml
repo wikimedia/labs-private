@@ -1,0 +1,1 @@
+profile::openstack::codfw1dev::placement::db_pass: 'lp-placement_db_pass'

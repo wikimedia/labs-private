@@ -1,0 +1,1 @@
+profile::openstack::eqiad1::placement::db_pass: 'fake_eqiad1_placement_db_pass'
