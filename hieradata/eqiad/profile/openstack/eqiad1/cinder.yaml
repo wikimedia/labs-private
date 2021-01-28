@@ -1,3 +1,4 @@
 profile::openstack::eqiad1::cinder::db_pass: 'lp-cinder_db_pass'
 
-profile::openstack::eqiad1::cinder::ldap_user_pass: 'lp-cinder_service_user_pass_eqiad1'
+# Currently unused (see T273149):
+#profile::openstack::eqiad1::cinder::ldap_user_pass: 'lp-cinder_service_user_pass_eqiad1'
