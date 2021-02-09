@@ -1,4 +1,8 @@
 docker_registry_ha::hash: secret_hash
+docker_registry_ha::restricted_push_password: secretpassword1
+docker_registry_ha::restricted_read_password: secretpassword2
+docker_registry_ha::regular_push_password: secretpassword3
+docker_registry_ha::password_salt: asecretsalt
 profile::docker_registry_ha::registry::swift_password: swift_password
 profile::docker_registry_ha::registry::shared_secret: supersharedsecret
 profile::docker_registry_ha::registry::swift_replication_key: supersecretkey
