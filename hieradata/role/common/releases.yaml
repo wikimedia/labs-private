@@ -1,1 +1,2 @@
 profile::ci::kubernetes_config::token: dummytoken
+profile::releases::mediawiki::ci_restricted_user_password: secretpassword1
