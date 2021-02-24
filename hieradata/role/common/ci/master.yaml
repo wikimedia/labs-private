@@ -1,4 +1,6 @@
 docker::registry::password: 'somesecret'
+profile::ci::shipyard::ci_build_user_password: secretpassword3
+profile::local_dev::ci_build_user_password: secretpassword3
 profile::kubernetes::deployment_server::tokens:
   mathoid:
     token: dummytoken
