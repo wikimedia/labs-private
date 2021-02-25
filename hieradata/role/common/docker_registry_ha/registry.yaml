@@ -3,7 +3,7 @@ profile::docker_registry_ha::ci_restricted_user_password: secretpassword1
 profile::docker_registry_ha::kubernetes_user_password: secretpassword2
 profile::docker_registry_ha::ci_build_user_password: secretpassword3
 profile::docker_registry_ha::prod_build_user_password: secretpassword4
-profile::docker_registry_ha::password_salt: asecretsalt
+profile::docker_registry_ha::password_salt: asecrets
 profile::docker_registry_ha::registry::swift_password: swift_password
 profile::docker_registry_ha::registry::shared_secret: supersharedsecret
 profile::docker_registry_ha::registry::swift_replication_key: supersecretkey
