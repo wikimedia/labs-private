@@ -1,2 +1,3 @@
 profile::ci::kubernetes_config::token: dummytoken
 profile::releases::mediawiki::ci_restricted_user_password: secretpassword1
+profile::ci::pipeline::publisher::docker_registry_password: secretpassword1
