@@ -1,0 +1,5 @@
+profile::mailman3::db_password: dummy
+profile::mailman3::api_password: dummy
+profile::mailman3::web::db_password: dummy
+profile::mailman3::web::secret: dummy
+profile::mailman3::archiver_key: dummy
