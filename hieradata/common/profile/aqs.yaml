@@ -1,1 +1,1 @@
-profile::aqs::cassandra_password: changeme
+profile::aqs::cassandra_password: notsecret
