@@ -1,0 +1,6 @@
+profile::kubernetes::node::kubeproxy_token: dummytoken421
+profile::kubernetes::node::kubelet_token: dummytoken422
+profile::rsyslog::kubernetes::token: dummytoken423
+profile::calico::kubernetes::calico_cni::token: dummytoken424
+profile::calico::kubernetes::calicoctl::token: dummytoken425
+profile::kubernetes::node::docker_kubernetes_user_password: secretpassword422
