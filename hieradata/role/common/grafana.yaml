@@ -1,3 +1,4 @@
 profile::grafana::secret_key: aaaaa
 profile::grafana::admin_password: aaaa
 profile::grafana::ldap::bind_password: aaaa
+profile::grafana::grizzly::grafana_token: aaaa
