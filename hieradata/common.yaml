@@ -48,11 +48,14 @@ k8s_infrastructure_users:
   kubelet:
     id: 2
     token: dummydummydummy
-    type: system:nodes
+    groups:
+      - system:nodes
   prometheus:
     id: 3
     token: dummydummydummy
-    type: '"view,api-masters"'
+    groups:
+      - view
+      - api-masters
   system:kube-proxy:
     id: 4
     token: dummydummydummy
