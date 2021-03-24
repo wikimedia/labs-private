@@ -1,0 +1,5 @@
+profile::mailman3::db_password: 'secret'
+profile::mailman3::web::db_password: 'secret'
+profile::mailman3::api_password: 'secret'
+profile::mailman3::web::secret: 'secret'
+profile::mailman3::archiver_key: 'secret'
