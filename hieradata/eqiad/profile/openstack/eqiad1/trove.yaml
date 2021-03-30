@@ -1,0 +1,2 @@
+profile::openstack::eqiad1::trove::db_pass: 'fakedbpassfortrove'
+profile::openstack::eqiad1::trove::trove_guest_rabbit_pass: 'fakeguestrabbitpassfortrove'

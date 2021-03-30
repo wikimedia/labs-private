@@ -1,0 +1,2 @@
+profile::openstack::codfw1dev::trove::db_pass: 'codfw1dev-fakedbpassfortrove'
+profile::openstack::codfw1dev::trove::trove_guest_rabbit_pass: 'codfw1dev-favepassforguestrabbit'
