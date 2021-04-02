@@ -1,4 +1,3 @@
-profile::kubernetes::master::controllermanager_token: dummytoken42
 profile::kubernetes::master::infrastructure_users:
   client-infrastructure:
     id: 1
