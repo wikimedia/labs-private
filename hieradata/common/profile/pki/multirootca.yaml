@@ -1,1 +1,5 @@
 profile::pki::multirootca::db_pass: changeme
+profile::pki::multirootca::default_auth_keys:
+  default_auth:
+    key: aaaabbbbccccdddd
+    type: standard
