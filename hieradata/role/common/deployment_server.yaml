@@ -244,8 +244,3 @@ profile::kubernetes::deployment_server_secrets::services:
         jwks:
           kid: dummy
           key: dummy
-
-profile::kubernetes::deployment_server_secrets::admin_services:
-  calico:
-    staging:
-      looldata: a
