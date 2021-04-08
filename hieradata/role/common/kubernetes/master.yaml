@@ -1,50 +1,51 @@
+profile::kubernetes::master::controllermanager_token: dummytoken42
 profile::kubernetes::master::infrastructure_users:
   client-infrastructure:
-    id: 1
     token: dummydummy
-    type: system:masters
+    groups:
+      - system:masters
   kubelet:
-    id: 2
     token: dummydummydummy
     groups:
       - system:nodes
   prometheus:
-    id: 3
     token: dummydummydummy
     groups:
       - view
       - api-masters
   system:kube-proxy:
-    id: 4
     token: dummydummydummy
-    type: system:node
+    groups:
+      - system:node
   mathoid:
-    id: 5
     token: dummydummydummy
-    type: deploy
+    groups:
+      - deploy
   jenkins:
-    id: 6
     token: dummydummydummy
-    type: deploy
+    groups:
+      - deploy
   zotero:
-    id: 7
     token: dummydummydummy
-    type: deploy
+    groups:
+      - deploy
   graphoid:
-    id: 8
     token: dummydummydummy
-    type: deploy
+    groups:
+      - deploy
   blubberoid:
-    id: 9
     token: dummydummydummy
-    type: deploy
+    groups:
+      - deploy
   eventgate-analytics:
-    id: 10
     token: dummydummydummy
-    type: deploy
+    groups:
+      - deploy
   citoid:
-    id: 11
     token: dummydummydummy
-    type: deploy
+    groups:
+      - deploy
   cxserver:
-    id: 12
+    token: dummydummydummy
+    groups:
+      - deploy
