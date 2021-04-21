@@ -1,0 +1,3 @@
+# password used by backup workers mysql metadata database
+# See profile::mediabackup::worker
+profile::mediabackup::db::password: 'notsecret'
