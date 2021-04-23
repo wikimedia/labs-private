@@ -1,2 +1,3 @@
 profile::openstack::codfw1dev::trove::db_pass: 'codfw1dev-fakedbpassfortrove'
 profile::openstack::codfw1dev::trove::trove_guest_rabbit_pass: 'codfw1dev-favepassforguestrabbit'
+profile::openstack::codfw1dev::trove::trove_user_pass: 'eqiad1-troveuserfakepass'
