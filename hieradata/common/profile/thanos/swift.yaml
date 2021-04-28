@@ -3,3 +3,4 @@ profile::thanos::swift::accounts_keys:
   dispersion: 'bar'
   chartmuseum_prod: 'baz'
   wdqs_flink: 'baz'
+  mlserve_prod: 'batman'

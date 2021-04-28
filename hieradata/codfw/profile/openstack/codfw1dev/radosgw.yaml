@@ -1,0 +1,2 @@
+profile::openstack::codfw1dev::radosgw::service_user_pass: 'dummy_password_for_radosgw_service_user'
+profile::openstack::codfw1dev::radosgw::client_keydata: 'fake keydata for radosgw'

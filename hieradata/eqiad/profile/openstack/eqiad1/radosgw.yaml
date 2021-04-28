@@ -1,0 +1,2 @@
+profile::openstack::eqiad1::radosgw::service_user_pass: 'dummy_password_for_radosgw_service_user'
+profile::openstack::eqiad1::radosgw::client_keydata: 'fake keydata for radosgw'
