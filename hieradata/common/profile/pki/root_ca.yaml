@@ -1,5 +1,5 @@
 profile::pki::root_ca::db_pass: changeme
-profile::pki::root_ca::default_auth_keys:
+profile::pki::root_ca::auth_keys:
   default_auth:
     key: aaaabbbbccccdddd
     type: standard
