@@ -57,6 +57,8 @@ profile::kubernetes::deployment_server::tokens:
     token: dummytoken
   shellbox:
     token: dummytoken
+  miscweb:
+    token: dummytoken
 
 profile::ci::kubernetes_config::token: dummytoken
 
