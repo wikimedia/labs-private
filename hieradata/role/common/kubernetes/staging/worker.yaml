@@ -3,3 +3,4 @@ profile::kubernetes::node::kubelet_token: dummytoken2
 profile::rsyslog::kubernetes::token: dummytoken3
 profile::calico::kubernetes::calico_cni::token: dummytoken4
 profile::calico::kubernetes::calicoctl::token: dummytoken5
+profile::kubernetes::node::docker_kubernetes_user_password: secretpassword2
