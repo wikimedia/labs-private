@@ -49,3 +49,7 @@ profile::kubernetes::master::infrastructure_users:
     token: dummydummydummy
     groups:
       - deploy
+  mwdebug:
+    token: dummydummydummy
+    groups:
+      - deploy
