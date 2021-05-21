@@ -103,3 +103,5 @@ abuse_networks:
       - 2001:db8::/64
       - 2001:db8:1::1/128
 profile::pki::client::auth_key: aaaabbbbccccdddd
+mediabackup:
+  db_password: 'notsecret'
