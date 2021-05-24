@@ -53,3 +53,7 @@ profile::kubernetes::master::infrastructure_users:
     token: dummydummydummy
     groups:
       - deploy
+  tegola-vector-tiles:
+    token: dummydummydummy
+    groups:
+      - deploy 
