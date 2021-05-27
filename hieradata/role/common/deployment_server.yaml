@@ -250,3 +250,16 @@ profile::kubernetes::deployment_server_secrets::services:
         jwks:
           kid: dummy
           key: dummy
+  mwdebug:
+    eqiad:
+      mw:
+        nutcracker:
+          redis_password: dummypasss
+    codfw:
+      mw:
+        nutcracker:
+          redis_password: dummypasss
+    staging:
+      mw:
+        nutcracker:
+          redis_password: dummypasss
