@@ -1,5 +1,5 @@
 profile::httpbb::basicauth_credentials:
   docker-registry:
-    regular-push: secret0
-    restricted-read: secret1
-    restricted-push: secret2
+    ci-build: secret0
+    kubernetes: secret1
+    ci-restricted: secret2
