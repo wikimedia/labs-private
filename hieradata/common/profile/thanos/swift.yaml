@@ -4,3 +4,4 @@ profile::thanos::swift::accounts_keys:
   chartmuseum_prod: 'baz'
   wdqs_flink: 'baz'
   mlserve_prod: 'batman'
+  tegola_prod: 'robin'
