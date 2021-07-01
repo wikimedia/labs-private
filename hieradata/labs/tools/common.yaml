@@ -9,3 +9,5 @@ profile::toolforge::elasticsearch::haproxy::elastic_users:
 profile::toolforge::elasticsearch::keepalived::password: NotARealPassword
 
 profile::wmcs::kubeadm::encryption_key: NotARealEncryptionKey
+
+profile::openstack::eqiad1::ldap_user_pass: 'dummy_ldap_user_pass'
