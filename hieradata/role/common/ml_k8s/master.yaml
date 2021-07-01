@@ -20,3 +20,9 @@ profile::kubernetes::master::infrastructure_users:
     token: dummydummydummy
     groups:
       - deploy
+
+profile::kubernetes::node::kubeproxy_token: dummytoken421
+profile::kubernetes::node::kubelet_token: dummytoken422
+profile::rsyslog::kubernetes::token: dummytoken423
+profile::calico::kubernetes::calico_cni::token: dummytoken424
+profile::calico::kubernetes::calicoctl::token: dummytoken425
