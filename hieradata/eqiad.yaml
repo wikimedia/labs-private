@@ -34,3 +34,5 @@ labsdnsconfig:
 labspuppetbackend::mysql_password:  'dummypass'
 labspuppetbackend_mysql_password: 'dummypass'
 profile::docker_registry_ha::registry::redis_password: eqiadredispassword
+
+profile::openstack::eqiad1::ldap_user_pass: 'dummy_ldap_user_pass'
