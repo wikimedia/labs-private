@@ -19,3 +19,6 @@ keystoneconfig:
 labspuppetbackend::mysql_password:  'dummypass'
 labspuppetbackend_mysql_password: 'dummypass'
 profile::docker_registry_ha::registry::redis_password: codfwredispassword
+
+mediabackup:
+    storage_root_password: 'dummypasswordforcodfw'

@@ -105,3 +105,4 @@ abuse_networks:
 profile::pki::client::auth_key: aaaabbbbccccdddd
 mediabackup:
   db_password: 'notsecret'
+  storage_root_user: 'auser'
