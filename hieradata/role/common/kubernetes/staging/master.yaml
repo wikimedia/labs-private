@@ -57,3 +57,7 @@ profile::kubernetes::master::infrastructure_users:
     token: dummydummydummy
     groups:
       - deploy
+  rdf-streaming-updater:
+    token: dummydummydummy
+    groups:
+      - deploy

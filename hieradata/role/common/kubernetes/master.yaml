@@ -56,4 +56,8 @@ profile::kubernetes::master::infrastructure_users:
   tegola-vector-tiles:
     token: dummydummydummy
     groups:
-      - deploy 
+      - deploy
+  rdf-streaming-updater:
+    token: dummydummydummy
+    groups:
+      - deploy
