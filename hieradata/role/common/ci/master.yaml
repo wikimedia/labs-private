@@ -63,6 +63,8 @@ profile::kubernetes::deployment_server::tokens:
     token: dummytoken
   tegola-vector-tiles:
     token: dummytoken
+  rdf-streaming-updater:
+    token: dummytoken
 
 profile::ci::kubernetes_config::token: dummytoken
 
